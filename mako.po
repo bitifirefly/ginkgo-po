@@ -565,7 +565,7 @@ msgstr "全名: {realname}"
 
 #: common/templates/emails/contact_us_feedback_email_body.txt:6
 msgid "Inquiry Type: {inquiry_type}"
-msgstr ""
+msgstr "查询类型:{inquiry_type}"
 
 #: common/templates/emails/contact_us_feedback_email_body.txt:7
 msgid "Message: {message}"
@@ -664,7 +664,7 @@ msgstr "收藏此页"
 
 #: lms/templates/conditional_module.html:19
 msgid "You do not have access to this dependency module."
-msgstr ""
+msgstr "你无法访问这个依赖项模块"
 
 #: lms/templates/course.html:13
 msgid "LEARN MORE"
@@ -987,7 +987,7 @@ msgid ""
 "Describe what you were doing when you encountered the issue. Include any "
 "details that will help us to troubleshoot, including error messages that you"
 " saw."
-msgstr ""
+msgstr "当你遇到这个问题的时候描述你在做什么。包括一些能够帮助我们去排除故障的细节，和一些你的错误的信息。"
 
 #: lms/templates/help_modal.html:126
 msgid "Thank You!"
@@ -999,7 +999,7 @@ msgid ""
 "within one business day, Monday to Friday.  In the meantime, please review "
 "our {link_start}detailed FAQs{link_end} where most questions have already "
 "been answered."
-msgstr ""
+msgstr "感谢您的调查或反馈。我们通常会在工作日周一到周五内对请求做出响应。在此期间，请阅读我们的{link_start}详细的FAQs linkend,那许多的问题已经被解答。"
 
 #: lms/templates/help_modal.html:193
 msgid "- Select -"
@@ -1070,14 +1070,14 @@ msgid ""
 "Because the course has ended, this assignment is no longer "
 "available.{line_break}If you have completed this assignment, your grade is "
 "available on the {link_start}progress page{link_end}."
-msgstr ""
+msgstr "因为这个课程已经结束，这个任务已经不再能够获得。{line_break}如果您已经完成这个任务，您的成绩是可以在{link_start}到{link_end}页面获得。"
 
 #: lms/templates/hidden_content.html:28
 msgid ""
 "Because the due date has passed, this assignment is no longer "
 "available.{line_break}If you have completed this assignment, your grade is "
 "available on the {link_start}progress page{link_end}."
-msgstr ""
+msgstr "因为日期已经截止，这个任务不在能够获得。{link_break}如果你已经完成这个任务，您的成绩是可以在{link_start}到{link_end}页面获得。"
 
 #: lms/templates/imageannotation.html:37
 msgid "Note: only instructors may annotate."
@@ -1375,15 +1375,15 @@ msgstr "工作人员"
 
 #: lms/templates/preview_menu.html:37
 msgid "Learner"
-msgstr ""
+msgstr "学员"
 
 #: lms/templates/preview_menu.html:38
 msgid "Specific learner"
-msgstr ""
+msgstr "个别学生"
 
 #: lms/templates/preview_menu.html:43
 msgid "Learner in {content_group}"
-msgstr ""
+msgstr "学员在｛content_group｝里"
 
 #: lms/templates/preview_menu.html:50
 msgid "Username or email:"
@@ -1406,7 +1406,7 @@ msgstr[0] "你已经尝试了{num_used}次（总共可以尝试{num_total}次）
 msgid ""
 "Some problems have options such as save, reset, hints, or show answer. These"
 " options follow the Submit button."
-msgstr ""
+msgstr "一些问题有选项例如保存，重置，提示或者显示答案。这些选项下有Submit按钮。"
 
 #: lms/templates/problem.html:43
 msgid "Hint"
@@ -1851,7 +1851,7 @@ msgstr "添加评论"
 
 #: lms/templates/staff_problem_info.html:59
 msgid "Staff Debug:"
-msgstr ""
+msgstr "工作人员调试"
 
 #: lms/templates/staff_problem_info.html:64
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html:172
@@ -1867,7 +1867,7 @@ msgstr "用户名"
 
 #: lms/templates/staff_problem_info.html:71
 msgid "Score (for override only)"
-msgstr ""
+msgstr "评分(仅仅是覆盖的)"
 
 #: lms/templates/staff_problem_info.html:79
 msgid "Reset Learner's Attempts to Zero"
@@ -1891,7 +1891,7 @@ msgstr "如果评分提高, 重新打分"
 
 #: lms/templates/staff_problem_info.html:92
 msgid "Override Score"
-msgstr ""
+msgstr "覆盖的成绩"
 
 #: lms/templates/staff_problem_info.html:104
 #: lms/templates/staff_problem_info.html:105
@@ -2124,7 +2124,7 @@ msgstr "课程面板："
 
 #: lms/templates/user_dropdown.html:77
 msgid "More options"
-msgstr ""
+msgstr "更多的选择"
 
 #: lms/templates/using.html:4
 msgid "Using the system"
@@ -2166,7 +2166,7 @@ msgstr "未找到可播放的视频源。"
 msgid ""
 "Your browser does not support this video format. Try using a different "
 "browser."
-msgstr ""
+msgstr "您的浏览器不支持这个视频格式。尝试使用一个不同的浏览器。"
 
 #: lms/templates/video.html:47
 msgid "Downloads and transcripts"
@@ -3638,7 +3638,7 @@ msgstr "本课程未添加新内容"
 msgid ""
 "To access course materials, you must score {required_score}% or higher on "
 "this                     exam. Your current score is {current_score}%."
-msgstr ""
+msgstr "去访问课程材料，您必须在这门考试上获得{required_score}或者更高的得分。您目前的得分是{current_score}"
 
 #: lms/templates/courseware/courseware.html:211
 msgid "Your score is {current_score}%. You have passed the entrance exam."
@@ -3678,13 +3678,13 @@ msgstr "{course_number} 课程信息"
 
 #: lms/templates/courseware/info.html:28
 msgid "You are not enrolled yet"
-msgstr ""
+msgstr "您还没有选课？"
 
 #: lms/templates/courseware/info.html:31
 msgid ""
 "You are not currently enrolled in this course. {link_start}Enroll "
 "now!{link_end}"
-msgstr ""
+msgstr "您目前没有在这门课程里选择课。{link_start}现在选课{link_end}"
 
 #: lms/templates/courseware/info.html:61
 msgid "Welcome to {org}'s {course_name}!"
@@ -3713,7 +3713,7 @@ msgstr "讲义导航"
 #: lms/templates/courseware/info.html:88
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:108
 msgid "Course Tools"
-msgstr ""
+msgstr "课程工具"
 
 #: lms/templates/courseware/info.html:108
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:128
@@ -3730,15 +3730,15 @@ msgstr "您关注的讨论帖的更新情况"
 
 #: lms/templates/courseware/program_marketing.html:70
 msgid "Purchase the Program"
-msgstr ""
+msgstr "购买这个项目"
 
 #: lms/templates/courseware/program_marketing.html:74
 msgid "Start Learning"
-msgstr ""
+msgstr "开始学习"
 
 #: lms/templates/courseware/program_marketing.html:81
 msgid "View Program Trailer"
-msgstr ""
+msgstr "查看程序拖车"
 
 #: lms/templates/courseware/program_marketing.html:86
 msgid "Play"
@@ -3746,19 +3746,19 @@ msgstr "播放"
 
 #: lms/templates/courseware/program_marketing.html:101
 msgid "Number of Courses"
-msgstr ""
+msgstr "课程的数字"
 
 #: lms/templates/courseware/program_marketing.html:104
 msgid "{number_of_courses} courses in program"
-msgstr ""
+msgstr "{number_of_course}课程在项目里"
 
 #: lms/templates/courseware/program_marketing.html:112
 msgid "Average Length"
-msgstr ""
+msgstr "平均长度"
 
 #: lms/templates/courseware/program_marketing.html:115
 msgid "{weeks_to_complete} weeks per course"
-msgstr ""
+msgstr "{weeks_to_complete}周/课"
 
 #: lms/templates/courseware/program_marketing.html:123
 msgid "Effort"
@@ -3768,35 +3768,35 @@ msgstr "用功时间"
 msgid ""
 "{min_hours_effort_per_week}-{max_hours_effort_per_week} hours per week, per "
 "course"
-msgstr ""
+msgstr "{min_hours_effort_per_week}-{max_hours_effort_per_week}小时/周/课"
 
 #: lms/templates/courseware/program_marketing.html:135
 msgid "Price (USD)"
-msgstr ""
+msgstr "价格 (USD)"
 
 #: lms/templates/courseware/program_marketing.html:139
 msgid "Original Price"
-msgstr ""
+msgstr "原始的价格"
 
 #: lms/templates/courseware/program_marketing.html:140
 msgid "${oldPrice}"
-msgstr ""
+msgstr "￥｛oldPrice｝"
 
 #: lms/templates/courseware/program_marketing.html:144
 msgid "Discounted Price"
-msgstr ""
+msgstr "折扣价格"
 
 #: lms/templates/courseware/program_marketing.html:145
 msgid "${newPrice}{htmlEnd} for entire program"
-msgstr ""
+msgstr "对于整个项目￥{newPrice}{htmlEnd}"
 
 #: lms/templates/courseware/program_marketing.html:150
 msgid "You save ${discount_value} {currency}"
-msgstr ""
+msgstr "你保存￥{discount_value} {currency}"
 
 #: lms/templates/courseware/program_marketing.html:158
 msgid "${full_program_price} for entire program"
-msgstr ""
+msgstr "￥{full_program_price}对于整个课程"
 
 #: lms/templates/courseware/program_marketing.html:167
 msgid "Overview"
@@ -3804,16 +3804,16 @@ msgstr "课程概况"
 
 #: lms/templates/courseware/program_marketing.html:174
 msgid "Job Outlook"
-msgstr ""
+msgstr "就业前景"
 
 #: lms/templates/courseware/program_marketing.html:185
 msgid "What You'll Learn"
-msgstr ""
+msgstr "您将要学什么"
 
 #: lms/templates/courseware/program_marketing.html:230
 #: lms/templates/courseware/program_marketing.html:325
 msgid "{position} at {organization}"
-msgstr ""
+msgstr "{position}在{organization}"
 
 #: lms/templates/courseware/program_marketing.html:256
 #: lms/templates/static_templates/faq.html:5
@@ -3825,38 +3825,38 @@ msgstr "常见问题"
 #: lms/templates/courseware/program_marketing.html:275
 #: lms/templates/courseware/program_marketing.html:368
 msgid "Endorser Image"
-msgstr ""
+msgstr "背书照片"
 
 #: lms/templates/courseware/program_marketing.html:290
 msgid "Meet the Instructors"
-msgstr ""
+msgstr "遇见讲师"
 
 #. Translators: Pagination range contains ordinal numbers of the first and the
 #. last instructor
 #. whose information is shown on the current page.
 #: lms/templates/courseware/program_marketing.html:344
 msgid "{pagination_range} of {number_of_instructors}"
-msgstr ""
+msgstr "{number_of_instructors}的{pagination_range}"
 
 #: lms/templates/courseware/program_marketing.html:390
 msgid "Courses in the {program_type}"
-msgstr ""
+msgstr "课程在{program_type}"
 
 #: lms/templates/courseware/program_marketing.html:405
 msgid "Starts {course_start_datetime}"
-msgstr ""
+msgstr "开始{course_start_datetime}"
 
 #: lms/templates/courseware/program_marketing.html:411
 msgid "Instructor - Paced"
-msgstr ""
+msgstr "指导学习"
 
 #: lms/templates/courseware/program_marketing.html:413
 msgid "Self - Paced"
-msgstr ""
+msgstr "自学"
 
 #: lms/templates/courseware/program_marketing.html:441
 msgid "YouTube Video"
-msgstr ""
+msgstr "YouTube视频"
 
 #: lms/templates/courseware/progress.html:24
 msgid "{course_number} Progress"
@@ -3899,7 +3899,7 @@ msgstr "{student_name}，您已失去获得该课程学分的资格。"
 msgid ""
 "{student_name}, you have met the requirements for credit in this course. "
 "{a_start}Go to your dashboard{a_end} to purchase course credit."
-msgstr ""
+msgstr "{student_name},您在这门课上已经达到了学分的要求。{a_start}"
 
 #: lms/templates/courseware/progress.html:102
 msgid "{student_name}, you have not yet met the requirements for credit."
@@ -3948,11 +3948,11 @@ msgstr "从可能的总分{total} 中获得{earned} "
 #: lms/templates/courseware/progress.html:187
 msgid ""
 "Suspicious activity detected during proctored exam review. Exam score 0."
-msgstr ""
+msgstr "在检测过程中检测到可疑操作。测试成绩为0."
 
 #: lms/templates/courseware/progress.html:189
 msgid "Section grade has been overridden."
-msgstr ""
+msgstr "部分评分已被覆盖。"
 
 #: lms/templates/courseware/progress.html:196
 msgid "Problem Scores: "
@@ -3964,19 +3964,19 @@ msgstr "练习得分："
 
 #: lms/templates/courseware/progress.html:205
 msgid "Problem scores are hidden until the due date."
-msgstr ""
+msgstr "有问题的分数已被隐藏直到到期日期。"
 
 #: lms/templates/courseware/progress.html:207
 msgid "Practice scores are hidden until the due date."
-msgstr ""
+msgstr "练习的分数已被隐藏直到到期日期"
 
 #: lms/templates/courseware/progress.html:211
 msgid "Problem scores are hidden."
-msgstr ""
+msgstr "有问题的分数已被隐藏。"
 
 #: lms/templates/courseware/progress.html:213
 msgid "Practice scores are hidden."
-msgstr ""
+msgstr "练习的分数已被隐藏。"
 
 #: lms/templates/courseware/progress.html:219
 msgid "No problem scores in this section"
@@ -4201,11 +4201,11 @@ msgstr "查看存档的课程"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:169
 msgid "I'm taking {course_name} online with edX.org. Check it out!"
-msgstr ""
+msgstr "我在网上edX.org登录{course_name}.查出来。"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:172
 msgid "Share {course_name} on Facebook"
-msgstr ""
+msgstr "分享{course_name}在Facebook上."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:175
 #: lms/templates/dashboard/_dashboard_course_listing.html:180
@@ -4214,11 +4214,11 @@ msgstr "分享到Facebook"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:190
 msgid "I'm taking {course_name} online with @edxonline. Check it out!"
-msgstr ""
+msgstr "我登录{course_name}在网上@edxonline,查出来。"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:193
 msgid "Share {course_name} on Twitter"
-msgstr ""
+msgstr "分享{course_name}到Twitter."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:214
 msgid "Course options for"
@@ -4260,7 +4260,7 @@ msgstr "认证"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:312
 msgid "You have submitted your verification information."
-msgstr ""
+msgstr "您的验证信息已经提交。"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:313
 msgid ""
@@ -4277,7 +4277,7 @@ msgid ""
 "You have submitted your reverification information. You will see a message "
 "on your dashboard when the verification process is complete (usually within "
 "1-2 days)."
-msgstr ""
+msgstr "您的重复验信息已经提交。当验证过程完成时(通常在1-2天)您将会收到一条信息在您的课程面板。"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:318
 msgid "You have successfully verified your ID with edX"
@@ -4297,7 +4297,7 @@ msgstr "您的现时验证将马上过期"
 msgid ""
 "Your current verification will expire in {days} days. {start_link}Re-verify "
 "your identity now{end_link} using a webcam and a government-issued photo ID."
-msgstr ""
+msgstr "您目前的验证将终止在{days}天内。{start_link}Re-verify}您现在的身份{end_link}使用一个网络摄像头和一个身份证帐号。"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:342
 msgid ""
@@ -4392,38 +4392,38 @@ msgstr "本次交易出错了。联系{support_email}寻求帮助。"
 
 #: lms/templates/dashboard/_dashboard_status_verification.html:10
 msgid "Current Verification Status: Approved"
-msgstr ""
+msgstr "目前的验证状态:通过检验。"
 
 #: lms/templates/dashboard/_dashboard_status_verification.html:11
 msgid ""
 "Your edX verification has been approved. Your verification is effective for "
 "one year after submission."
-msgstr ""
+msgstr "您的edX验证已经通过检验。您的验证在提交后一年内是有效的。"
 
 #: lms/templates/dashboard/_dashboard_status_verification.html:15
 msgid "Current Verification Status: Pending"
-msgstr ""
+msgstr "目前验证状态：待处理"
 
 #: lms/templates/dashboard/_dashboard_status_verification.html:16
 msgid ""
 "Your edX ID verification is pending. Your verification information has been "
 "submitted and will be reviewed shortly."
-msgstr ""
+msgstr "您的edX帐号验证待处理。您的验证信息已被提交并且将会尽快回复。"
 
 #: lms/templates/dashboard/_dashboard_status_verification.html:20
 msgid "Current Verification Status: Denied"
-msgstr ""
+msgstr "目前的验证状态: 未通过"
 
 #: lms/templates/dashboard/_dashboard_status_verification.html:22
 msgid ""
 "Your verification submission was not accepted. To receive a verified "
 "certificate, you must submit a new photo of yourself and your government-"
 "issued photo ID before the verification deadline for your course."
-msgstr ""
+msgstr "您的验证提交没有被接受。去获得一个验证证书，您必须在您的课程验证截止以前提交一张您的照片和您的身份证帐号。"
 
 #: lms/templates/dashboard/_dashboard_status_verification.html:26
 msgid "Your verification was denied for the following reasons:"
-msgstr ""
+msgstr "您的验证未通过可能有以下原因："
 
 #: lms/templates/dashboard/_dashboard_status_verification.html:35
 #: lms/templates/dashboard/_dashboard_status_verification.html:43
@@ -4432,18 +4432,18 @@ msgstr "重新提交认证"
 
 #: lms/templates/dashboard/_dashboard_status_verification.html:40
 msgid "Current Verification Status: Expired"
-msgstr ""
+msgstr "目前的验证状态为：已过期"
 
 #: lms/templates/dashboard/_dashboard_status_verification.html:41
 msgid ""
 "Your verification has expired. To receive a verified certificate, you must "
 "submit a new photo of yourself and your government-issued photo ID before "
 "the verification deadline for your course."
-msgstr ""
+msgstr "您的验证已过期。想收到一个认证证书，您必须在您的课程验证截止前提交您的一张新照片和您身份证号码。"
 
 #: lms/templates/dashboard/_dashboard_third_party_error.html:7
 msgid "Could Not Link Accounts"
-msgstr ""
+msgstr "不能连接账户"
 
 #. Translators: this message is displayed when a user tries to link their
 #. account with a third-party authentication provider (for example, Google or
@@ -4461,43 +4461,43 @@ msgstr "你选择的 {provider_name}账户已经和{platform_name}账户相关�
 #: lms/templates/dashboard/_reason_survey.html:7
 msgid ""
 "We're sorry to see you go! Please share your main reason for unenrolling."
-msgstr ""
+msgstr "我们非常难过看到您离开！请分享一下您放弃选修的理由。"
 
 #: lms/templates/dashboard/_reason_survey.html:9
 msgid "I just wanted to browse the material"
-msgstr ""
+msgstr "我仅仅想要去浏览资料"
 
 #: lms/templates/dashboard/_reason_survey.html:10
 msgid "This won't help me reach my goals"
-msgstr ""
+msgstr "这个不能帮助我达到目标"
 
 #: lms/templates/dashboard/_reason_survey.html:11
 msgid "I don't have the time"
-msgstr ""
+msgstr "我没有时间"
 
 #: lms/templates/dashboard/_reason_survey.html:12
 msgid "I don't have the academic or language prerequisites"
-msgstr ""
+msgstr "我没有学术或语言的先决条件"
 
 #: lms/templates/dashboard/_reason_survey.html:13
 msgid "I don't have enough support"
-msgstr ""
+msgstr "我没有足够的支持"
 
 #: lms/templates/dashboard/_reason_survey.html:14
 msgid "I am not happy with the quality of the content"
-msgstr ""
+msgstr "我对这个内容的质量不满意"
 
 #: lms/templates/dashboard/_reason_survey.html:15
 msgid "The course material was too hard"
-msgstr ""
+msgstr "课程的资料太难"
 
 #: lms/templates/dashboard/_reason_survey.html:16
 msgid "The course material was too easy"
-msgstr ""
+msgstr "课程的资料太简单"
 
 #: lms/templates/dashboard/_reason_survey.html:17
 msgid "Something was broken"
-msgstr ""
+msgstr "事物故障"
 
 #: lms/templates/dashboard/_reason_survey.html:18
 msgid "Other"
@@ -4505,19 +4505,19 @@ msgstr "其他"
 
 #: lms/templates/dashboard/_reason_survey.html:23
 msgid "Thank you for sharing your reasons for unenrolling."
-msgstr ""
+msgstr "谢谢您分享放弃选修的原因"
 
 #: lms/templates/dashboard/_reason_survey.html:24
 msgid "You are unenrolled from"
-msgstr ""
+msgstr "您已弃选"
 
 #: lms/templates/dashboard/_reason_survey.html:28
 msgid "Return To Dashboard"
-msgstr ""
+msgstr "返回课程面板"
 
 #: lms/templates/dashboard/_reason_survey.html:31
 msgid "Browse Courses"
-msgstr ""
+msgstr "浏览课程"
 
 #: lms/templates/debug/run_python_form.html:15
 msgid "Results:"
@@ -4562,7 +4562,7 @@ msgstr "我关注的讨论帖"
 #. Translators: This labels a filter menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html:8
 msgid "Filter:"
-msgstr ""
+msgstr "过滤器"
 
 #. Translators: This is a menu option for showing all forum threads unfiltered
 #: lms/templates/discussion/_thread_list_template.html:11
@@ -4584,21 +4584,21 @@ msgstr "未答复的讨论帖"
 #. for abuse
 #: lms/templates/discussion/_thread_list_template.html:20
 msgid "Flagged"
-msgstr ""
+msgstr "标记"
 
 #. Translators: This labels a group menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html:26
 msgid "Group:"
-msgstr ""
+msgstr "组"
 
 #: lms/templates/discussion/_thread_list_template.html:28
 msgid "in all groups"
-msgstr ""
+msgstr "所有组里"
 
 #. Translators: This labels a sort menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html:37
 msgid "Sort:"
-msgstr ""
+msgstr "排序"
 
 #. Translators: This is a menu option for sorting forum threads
 #: lms/templates/discussion/_thread_list_template.html:40
@@ -4704,27 +4704,27 @@ msgid ""
 "You're almost there! Use the link to activate your account to access "
 "engaging, high-quality {platform_name} courses. Note that you will not be "
 "able to log back into your account until you have activated it."
-msgstr ""
+msgstr "您快到了!使用这个链接激活您的账户去接触迷人的，高质量的{platform_name}课程。注意您不能去重新登录您的账户直到您激活它。"
 
 #: lms/templates/emails/activation_email.txt:12
 msgid "Enjoy learning with {platform_name}."
-msgstr ""
+msgstr "在{platform_name}享受学习"
 
 #: lms/templates/emails/activation_email.txt:16
 msgid ""
 "If you need help, please use our web form at {support_url} or email "
 "{support_email}."
-msgstr ""
+msgstr "如果您需要帮助，请使用我们的web{support_url}或者邮件{support_email}"
 
 #: lms/templates/emails/activation_email.txt:20
 msgid ""
 "This email message was automatically sent by {lms_url} because someone "
 "attempted to create an account on {platform_name} using this email address."
-msgstr ""
+msgstr "这个由{lms_url}自动发送的电子邮件信息尝试使用这个电子邮件地址在{platform_name}上创建一个帐户."
 
 #: lms/templates/emails/activation_email_subject.txt:2
 msgid "Action Required: Activate your {platform_name} account"
-msgstr ""
+msgstr "待办事项:激活您的{platform_name}账户。"
 
 #: lms/templates/emails/add_beta_tester_email_message.txt:3
 #: lms/templates/emails/enroll_email_enrolledmessage.txt:3
@@ -5283,15 +5283,15 @@ msgstr "选课成功"
 #: lms/templates/enrollment/course_enrollment_message.html:9
 msgid ""
 "Thank you for enrolling in {course_names}. We hope you enjoy the course."
-msgstr ""
+msgstr "感谢您在{course_names}选课.我们希望您享受这个课程。"
 
 #: lms/templates/enrollment/course_enrollment_message.html:11
 msgid "Thank you for enrolling in:"
-msgstr ""
+msgstr "感谢您选课:"
 
 #: lms/templates/enrollment/course_enrollment_message.html:13
 msgid "We hope you enjoy the course."
-msgstr ""
+msgstr "我们希望您享受这个课程"
 
 #: lms/templates/enrollment/course_enrollment_message.html:17
 msgid ""
@@ -5508,11 +5508,11 @@ msgstr "为未获得证书的学员重新生成。({count})"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:134
 msgid "Regenerate for learners with audit passing state. ({count})"
-msgstr ""
+msgstr "对具有审核通过状态的学习者重新生成.({count})"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:140
 msgid "Regenerate for learners with audit not passing state. ({count})"
-msgstr ""
+msgstr "对于没有通过审核的学习者重新生成.({count})"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:146
 msgid "Regenerate for learners in an error state. ({count})"
@@ -6435,7 +6435,7 @@ msgstr "注：用户必须首先拥有已激活的{platform_name}账户方可成
 msgid ""
 "If this option is {em_start}checked{em_end}, users who have not enrolled in "
 "your course will be automatically enrolled."
-msgstr ""
+msgstr "如果这个选项是{em_start}checked{em_end},没有在您的课程里选课的使用者将会被自动选课."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:100
 msgid "Checking this box has no effect if 'Remove beta testers' is selected."
@@ -6528,7 +6528,8 @@ msgid ""
 "posts are marked as 'staff'. They can also add and remove the discussion "
 "moderation roles to manage course team membership. Only enrolled users can "
 "be added as Discussion Admins."
-msgstr ""
+msgstr "讨论管理员可以编辑或删除任何帖子，清除误用标志，关闭并且重新打开线程，支持回应，并查看来自所有组的帖子。他们的
+帖子被标记为“员工”。他们还可以添加和删除讨论组中适当的角色去管理课程团队成员。只有选课的用户能够被添加作为讨论管理员。"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:205
 msgid "Add Discussion Admin"
@@ -6545,7 +6546,8 @@ msgid ""
 "Their posts are marked as 'staff'. They cannot manage course team membership"
 " by adding or removing discussion moderation roles. Only enrolled users can "
 "be added as Discussion Moderators."
-msgstr ""
+msgstr "讨论管理员可以编辑或删除任何帖子，清除误用标志，关闭并且重新打开线程，支持回应，并查看来自所有组的帖子。他们的帖子被标记为“员工。他们无法通过添加或删除讨论组中适当的角色管理课程团队成员。只有选课的用户能够被加入
+作为讨论主持人。"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:221
 msgid "Add Moderator"
@@ -6553,7 +6555,7 @@ msgstr "添加版主"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:226
 msgid "Group Community TA"
-msgstr ""
+msgstr "组织社区的助教。"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:228
 msgid ""
@@ -6563,11 +6565,11 @@ msgid ""
 "re-open threads, and endorse responses, but only for posts by learners in "
 "their group. Their posts are marked as 'Community TA'. Only enrolled "
 "learners can be added as Group Community TAs."
-msgstr ""
+msgstr "团体社区的助教成员是帮助课程团队的社区成员进行温和的讨论。团体社区助教只看到学习者的帖子他们的分配组。他们可以编辑或删除帖子，清除标记，关闭并且重新打开线程，并支持回应，但只针对学习者的帖子在他们的组。他们的帖子被标记为"社区助教"。只有选课的学习者能够被添加作为群体社区的成员。
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:235
 msgid "Add Group Community TA"
-msgstr ""
+msgstr "添加团体社区助教"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:240
 msgid "Community TA"
@@ -6580,7 +6582,7 @@ msgid ""
 "posts, clear flags, close or re-open threads, and endorse responses. Their "
 "posts are marked as 'Community TA'. Only enrolled learners can be added as "
 "Community TAs."
-msgstr ""
+msgstr "社区助教是帮助课程团队进行缓和的讨论的社区的成员。他们可以看到所有学习者的帖子，可以编辑或删除帖子，清除标记，关闭或重新打开的线程，并支持回应。他们的帖子被标记为“社区T助教”。只有选课的学习者能够被添加作为社区助教。"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:248
 msgid "Add Community TA"
@@ -6710,7 +6712,7 @@ msgstr "(没有被分到特定群组的学生)"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:55
 msgid "Learners in the {track_name} Track"
-msgstr ""
+msgstr "学习者在{track_name}路径里。"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:65
 msgid "Subject: "
@@ -6811,7 +6813,7 @@ msgstr "查看注册学员成绩单"
 msgid ""
 "Note: This feature is available only to courses with a small number of "
 "enrolled learners."
-msgstr ""
+msgstr "注意:这个功能只适用于少量的选课学习者。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:11
 msgid "View Gradebook"
@@ -6825,13 +6827,13 @@ msgstr "阅览个别学生的评分和进度"
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:40
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:114
 msgid "Learner's {platform_name} email address or username"
-msgstr ""
+msgstr "学习者的{platform_name}邮件地址或者使用名"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:24
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:43
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:117
 msgid "Learner email address or username"
-msgstr ""
+msgstr "学习者的邮件地址或者使用名"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:29
 msgid "View Progress Page"
@@ -6839,12 +6841,12 @@ msgstr "阅览学生进度页面"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:37
 msgid "Adjust a learner's grade for a specific problem"
-msgstr ""
+msgstr "针对一个特定问题调整学习者的成绩"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:48
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:176
 msgid "Location of problem in course"
-msgstr ""
+msgstr "课程中问题的位置"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:49
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:177
@@ -6884,20 +6886,21 @@ msgid ""
 "For the specified problem, rescore the learner's responses. The 'Rescore "
 "Only If Score Improves' option updates the learner's score only if it "
 "improves in the learner's favor."
-msgstr ""
+msgstr "对于这个特定的问题，重新评判学习者的应答。这个“只有当分数提高重新评判”选项更新学习者的分数
+只有当它提高学习者的兴趣。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:75
 msgid "Score Override"
-msgstr ""
+msgstr "评分覆盖"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:76
 msgid "For the specified problem, override the learner's score."
-msgstr ""
+msgstr "覆盖这个学员的评分对于这个具体的问题。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:79
 msgid ""
 "New score for problem, out of the total points available for the problem"
-msgstr ""
+msgstr "新的评分问题，在这个问题的所有可获得的点上"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:82
 msgid "Score"
@@ -6905,7 +6908,7 @@ msgstr "分数"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:85
 msgid "Override Learner's Score"
-msgstr ""
+msgstr "覆盖学员的评分"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:91
 msgid "Problem History"
@@ -6915,7 +6918,7 @@ msgstr "问题记录"
 msgid ""
 "For the specified problem, permanently and completely delete the learner's "
 "answers and scores from the database."
-msgstr ""
+msgstr "对于这个特定的问题，永久彻底地删除学习者的答案和来自数据库的分数。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:99
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:155
@@ -6927,40 +6930,40 @@ msgstr "任务状态"
 msgid ""
 "Show the status for the rescoring tasks that you submitted for this learner "
 "and problem."
-msgstr ""
+msgstr "显示您提交的学习者和问题的重新评分任务的状态。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:102
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:160
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:201
 msgid "Show Task Status"
-msgstr ""
+msgstr "显示任务状态"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:110
 msgid "Adjust a learner's entrance exam results"
-msgstr ""
+msgstr "调整一个学习者的入学考试成绩。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:121
 msgid "Allow the learner to take the exam again."
-msgstr ""
+msgstr "允许这个学习者重新参加考试"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:126
 msgid "Allow Skip"
-msgstr ""
+msgstr "允许跳过"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:127
 msgid "Waive the requirement for the learner to take the exam."
-msgstr ""
+msgstr "放弃学生参加考试的要求"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:129
 msgid "Let Learner Skip Entrance Exam"
-msgstr ""
+msgstr "让学习者跳过入学考试"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:135
 msgid ""
 "Rescore any responses that have been submitted. The 'Rescore All Problems "
 "Only If Score Improves' option updates the learner's scores only if it "
 "improves in the learner's favor."
-msgstr ""
+msgstr "重新评判所有已提交的应答。这个“只有当分数提高进行重新评判所有问题”的选项更新学习者的分数只有当它提高学习者的兴趣。
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:139
 msgid "Rescore All Problems"
@@ -6972,23 +6975,23 @@ msgstr "如果评分提高, 重新打分所有问题"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:145
 msgid "Entrance Exam History"
-msgstr ""
+msgstr "入学考试历史"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:147
 msgid ""
 "For the entire entrance exam, permanently and completely delete the "
 "learner's answers and scores from the database."
-msgstr ""
+msgstr "对于整个入学考试，永久彻底地删除了学习者的答案和来自数据库的分数"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:157
 msgid ""
 "Show the status for the rescoring tasks that you submitted for this learner "
 "and entrance exam."
-msgstr ""
+msgstr "显示您提交的学习者和入学考试的重新评分任务的状态。"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:172
 msgid "Adjust all enrolled learners' grades for a specific problem"
-msgstr ""
+msgstr "对于一个特定的问题调整所有选课的学习者的成绩"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:184
 msgid "Allows all learners to work on the problem again."
@@ -6998,19 +7001,19 @@ msgstr "允许所有学生再次回答问题"
 msgid ""
 "Rescore submitted responses. The 'Rescore Only If Scores Improve' option "
 "updates a learner's score only if it improves in the learner's favor."
-msgstr ""
+msgstr "重新评判提交的应答。这个“只有当分数提高进行重新评判”的选项更新学习者的分数只有当它提高学习者的兴趣"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:193
 msgid "Rescore All Learners' Submissions"
-msgstr ""
+msgstr "重新评判所有学习者的意见书"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:194
 msgid "Rescore Only If Scores Improve"
-msgstr ""
+msgstr "只有当评分提高进行重新评判"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:199
 msgid "Show the status for the tasks that you submitted for this problem."
-msgstr ""
+msgstr "显示您提交这个问题的任务的状态"
 
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:7
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:10
@@ -7310,18 +7313,18 @@ msgstr "管理您的数据：{permission}"
 
 #: lms/templates/registration/account_activation_sidebar_notice.html:8
 msgid "Account Activation Info"
-msgstr ""
+msgstr "账户激活信息"
 
 #: lms/templates/registration/account_activation_sidebar_notice.html:16
 msgid "Activate your account!"
-msgstr ""
+msgstr "激活您的帐户"
 
 #: lms/templates/registration/account_activation_sidebar_notice.html:18
 msgid ""
 "Check your {email_start}{email}{email_end} inbox for an account activation "
 "link from {platform_name}. If you need help, contact "
 "{link_start}{platform_name} Support{link_end}."
-msgstr ""
+msgstr "核对您的{email_start}{email}{email_end}收件箱关于一个账户激活链接来自{platform_name}。如果您需要帮助，连接{link_start}{platform_name}支持{link_end}。"
 
 #: lms/templates/registration/activate_account_notice.html:9
 msgid "You're almost there!"
@@ -7885,7 +7888,7 @@ msgid ""
 "course from a country or region currently subject to U.S. economic and trade"
 " sanctions.Unfortunately, because {platform_name} is required to comply with"
 " export controls,we cannot allow you to access this course at this time."
-msgstr ""
+msgstr "我们的系统表明您正在尝试访问这个{platform_name}课程从一个目前受制于美国经济和贸易的国家或地区。不幸的是，因为{platform_name}是必须遵守的出口管制，我们不能允许您在这时进入这门课程"
 
 #: lms/templates/static_templates/honor.html:5
 #: lms/templates/static_templates/honor.html:9
@@ -7964,23 +7967,23 @@ msgstr "学生支持：证书"
 
 #: lms/templates/support/contact_us.html:12
 msgid "Contact US"
-msgstr ""
+msgstr "联系我们"
 
 #: lms/templates/support/contact_us.html:32
 msgid "Your question may have already been answered."
-msgstr ""
+msgstr "您的问题或许早已被解答"
 
 #: lms/templates/support/contact_us.html:38
 msgid "Visit edX Help"
-msgstr ""
+msgstr "访问edX帮助"
 
 #: lms/templates/support/contact_us.html:46
 msgid "Sign in for a faster response"
-msgstr ""
+msgstr "签到为了更快的响应"
 
 #: lms/templates/support/contact_us.html:82
 msgid "What can we help you with, {username}?"
-msgstr ""
+msgstr "我们能帮您什么，{username}"
 
 #: lms/templates/support/contact_us.html:110
 msgid "Message"
@@ -7988,23 +7991,23 @@ msgstr "消息"
 
 #: lms/templates/support/contact_us.html:111
 msgid "The more you tell us, themore quickly and helpfully we can respond!"
-msgstr ""
+msgstr "您告诉我们的更多，我们能够迅速而有效地做出回应"
 
 #: lms/templates/support/contact_us.html:120
 msgid "Add Attachment"
-msgstr ""
+msgstr "添加附件"
 
 #: lms/templates/support/contact_us.html:130
 msgid "1 file uploaded:"
-msgstr ""
+msgstr "1个文件上传"
 
 #: lms/templates/support/contact_us.html:137
 msgid "Remove file"
-msgstr ""
+msgstr "删除文件"
 
 #: lms/templates/support/contact_us.html:144
 msgid "Cancel upload"
-msgstr ""
+msgstr "取消上传"
 
 #: lms/templates/support/enrollment.html:26
 msgid "Student Support: Enrollment"
@@ -8097,7 +8100,7 @@ msgstr "如果我碰到问题可以联系谁？"
 msgid ""
 "If you have any questions about this course or this form, you can contact "
 "{link_start}{mail_to_link}{link_end}."
-msgstr ""
+msgstr "如果您有任何关于这门课程或者形式的问题，你能够联系{link_start}{mail_to_link}{link_end}。"
 
 #: lms/templates/verify_student/_verification_help.html:8
 msgid "Have questions?"
@@ -8125,7 +8128,7 @@ msgstr "升级截止日期已过"
 msgid ""
 "The verification deadline for {course_name} was {{date}}. Verification is no"
 " longer available."
-msgstr ""
+msgstr "这个{course_name}验证截止日期是{{date}}.验证是不再能够获得的。"
 
 #: lms/templates/verify_student/missed_deadline.html:34
 msgid ""
@@ -8190,11 +8193,11 @@ msgid ""
 "This website uses cookies to ensure you get the best experience on our "
 "website. If you continue browsing this site, we understand that you accept "
 "the use of cookies."
-msgstr ""
+msgstr "这个网站使用cookies是为了确保您在我们的网站上得到最好的体验。如果您继续浏览此网站，我们理解为您接受使用cookies."
 
 #: lms/templates/widgets/cookie-consent.html:21
 msgid "Got it!"
-msgstr ""
+msgstr "明白了"
 
 #: lms/templates/widgets/cookie-consent.html:22
 msgid "Learn more"
@@ -8217,7 +8220,7 @@ msgstr "{span_start}激活{span_end}"
 
 #: lms/templates/wiki/includes/breadcrumbs.html:10
 msgid "Course Wiki"
-msgstr ""
+msgstr "课程Wiki"
 
 #: lms/templates/wiki/includes/breadcrumbs.html:37
 msgid "Add article"
@@ -8233,15 +8236,15 @@ msgstr "语言代码"
 
 #: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html:20
 msgid "e.g. en for English"
-msgstr ""
+msgstr "e.g. en 英语"
 
 #: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:13
 msgid "Theming Administration"
-msgstr ""
+msgstr "主题管理"
 
 #: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:18
 msgid "Preview Theme"
-msgstr ""
+msgstr "预览主题"
 
 #: openedx/core/lib/license/templates/license.html:28
 msgid "All Rights Reserved"
@@ -8284,50 +8287,50 @@ msgstr "今天是 {date}"
 #: openedx/features/course_search/templates/course_search/course-search-fragment.html:40
 #: openedx/features/course_search/templates/course_search/course-search-fragment.html:47
 msgid "Search the course"
-msgstr ""
+msgstr "寻找课程"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:50
 msgid "Start Course"
-msgstr ""
+msgstr "开始课程"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:68
 msgid "Show/Hide"
-msgstr ""
+msgstr "显示/隐藏"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:69
 msgid "Show less"
-msgstr ""
+msgstr "显示较少"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:74
 msgid ""
 "Sample verified certificate with your name, the course title, the logo of "
 "the institution and the signatures of the instructors for this course."
-msgstr ""
+msgstr "样本认证证书有您的名字，课程标题，这门课的讲师和机构的签名"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:78
 msgid "Official proof of completion"
-msgstr ""
+msgstr "官方完整证明"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:79
 msgid "Easily shareable certificate"
-msgstr ""
+msgstr "轻松共享证书"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:80
 msgid "Proven motivator to complete the course"
-msgstr ""
+msgstr "能被证明是完成课程的动力"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:81
 msgid "Certificate purchases help us continue to offer free courses"
-msgstr ""
+msgstr "购买证书能够帮助我们继续提供免费课程"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:85
 msgid "Upgrade ({price})"
-msgstr ""
+msgstr "升级({price})"
 
 #: openedx/features/course_experience/templates/course_experience/course-messages-fragment.html:22
 #: openedx/features/course_experience/templates/course_experience/course-messages-fragment.html:28
 msgid "Course message author"
-msgstr ""
+msgstr "课程信息的作者"
 
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html:59
 msgid "{subsection_format} due {{date}}"
@@ -8335,20 +8338,20 @@ msgstr "{subsection_format} 截止{{date}}"
 
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html:110
 msgid "This is your last visited course section."
-msgstr ""
+msgstr "这是你最后一次访问的课程"
 
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html:133
 msgid "This course has not started yet."
-msgstr ""
+msgstr "这是还没有开始的课程"
 
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html:135
 msgid "We're still working on course content."
-msgstr ""
+msgstr "我们仍在研究课程内容。"
 
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html:137
 msgid ""
 "This course has not started yet, and will launch on {launch_date_html}."
-msgstr ""
+msgstr "这个课程还没有开始，并即将在{launch_date_html}启动."
 
 #: openedx/features/course_experience/templates/course_experience/course-reviews-fragment.html:19
 #: openedx/features/course_experience/templates/course_experience/course-reviews-fragment.html:26
@@ -8357,11 +8360,11 @@ msgstr "评论"
 
 #: openedx/features/course_experience/templates/course_experience/course-updates-fragment.html:49
 msgid "This course does not have any updates."
-msgstr ""
+msgstr "这个课程还没有升级。"
 
 #: openedx/features/course_experience/templates/course_experience/latest-update-fragment.html:19
 msgid "Latest Update"
-msgstr ""
+msgstr "最近更新"
 
 #: openedx/features/course_search/templates/course_search/course-search-fragment.html:25
 #: openedx/features/course_search/templates/course_search/course-search-fragment.html:32
@@ -8400,16 +8403,16 @@ msgstr "关联"
 
 #: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:21
 msgid "Completed {completion_date_html}"
-msgstr ""
+msgstr "完成{completion_date_html}"
 
 #: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:42
 #: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:58
 msgid "{course_mode} certificate"
-msgstr ""
+msgstr "{course_mode} 证书"
 
 #: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:73
 msgid "You haven't earned any certificates yet."
-msgstr ""
+msgstr "您还没有获得任何证书"
 
 #: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:78
 #: themes/edx.org/lms/templates/dashboard.html:199
@@ -8427,7 +8430,7 @@ msgstr "我的用户资料"
 #: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:33
 msgid ""
 "Build out your profile to personalize your identity on {platform_name}."
-msgstr ""
+msgstr "在{platform_name}上建立您的个人档案以使你的身份个性化"
 
 #: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:52
 msgid "An error occurred. Try loading the page again."
@@ -8460,19 +8463,20 @@ msgstr "关于 edX"
 
 #: themes/edx.org/lms/templates/footer.html:25
 msgid "edX Home Page"
-msgstr ""
+msgstr "edX主页面"
 
 #: themes/edx.org/lms/templates/footer.html:55
 msgid ""
 "© 2012–{year} edX Inc.  All rights reserved except where noted.  EdX, Open "
 "edX and the edX and Open edX logos are registered trademarks or trademarks "
 "of edX Inc."
-msgstr ""
+msgstr "© 2012–{year} edX 股份有限公司.除注明外，所有权利保留.EdX,Open
+edX和这个edX和Open edX标志是注册商标或edX公司商标"
 
 #: themes/edx.org/lms/templates/header.html:56
 #: themes/edx.org/lms/templates/header.html:181
 msgid "Main"
-msgstr ""
+msgstr "主要的"
 
 #: themes/edx.org/lms/templates/header.html:84
 #: themes/edx.org/lms/templates/header.html:189
