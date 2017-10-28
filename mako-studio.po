@@ -183,7 +183,7 @@ msgstr "上传新文件"
 
 #: cms/templates/asset_index.html:73
 msgid "Help adding Files and Uploads"
-msgstr ""
+msgstr "帮助添加文件和上传"
 
 #: cms/templates/asset_index.html:75
 msgid "Adding Files for Your Course"
@@ -315,7 +315,7 @@ msgid ""
 "To begin issuing course certificates, a course team member with either the "
 "Staff or Admin role selects {em_start}Activate{em_end}. Only course team "
 "members with these roles can edit or delete an activated certificate."
-msgstr ""
+msgstr "开始颁发课程证书，一个课程团队成员里的每一个员工或者管理者选择{em_start}激活{em_end}.仅课程团队的这些成员能够编辑或删除一个激活过的证书。"
 
 #: cms/templates/certificates.html:96
 msgid ""
@@ -389,7 +389,7 @@ msgstr "复制该组件"
 #: cms/templates/studio_xblock_wrapper.html:104
 #: cms/templates/studio_xblock_wrapper.html:109
 msgid "Move"
-msgstr ""
+msgstr "移动"
 
 #: cms/templates/component.html:32
 #: cms/templates/studio_xblock_wrapper.html:117
@@ -506,7 +506,7 @@ msgstr "位置 ID"
 msgid ""
 "To create a link to this unit from an HTML component in this course, enter "
 "\"/jump_to_id/<location ID>\" as the URL value."
-msgstr ""
+msgstr "从本课程的HTML组件中创建一个链接到这个单元，输入/"/jump_to_id/<location ID>\"作为URL的值。"
 
 #: cms/templates/container.html:154
 msgid "Location in Course Outline"
@@ -598,7 +598,7 @@ msgid ""
 "The unique number that identifies the new course within the organization.  "
 "(This number will be the same as the original course number and cannot be "
 "changed.)"
-msgstr ""
+msgstr "识别组织内新课程的唯一编号.(这个编号和原来的课程编号一样并且不能被改变。)"
 
 #: cms/templates/course-create-rerun.html:104 cms/templates/index.html:105
 #: cms/templates/settings.html:81
@@ -807,7 +807,7 @@ msgstr "了解更多关于评分标准的事"
 
 #: cms/templates/course_outline.html:215
 msgid "Changing the content learners see"
-msgstr ""
+msgstr "改变学习者所看的内容"
 
 #: cms/templates/course_outline.html:216
 msgid ""
@@ -821,7 +821,7 @@ msgid ""
 "Configure icon for that level, then select the appropriate "
 "{em_start}Hide{em_end} option. Grades for hidden sections, subsections, and "
 "units are not included in grade calculations."
-msgstr ""
+msgstr "为学习者提供一个章节、分段或单元，选择该级别的图标，然后选择合适的{em_start}隐藏{em_end}选项。对隐藏部分的等级，分段，和单元不包括在成绩计算中，"
 
 #: cms/templates/course_outline.html:218
 msgid ""
@@ -829,11 +829,11 @@ msgid ""
 "date has passed, select the Configure icon for a subsection, then select "
 "{em_start}Hide content after due date{em_end}. Grades for the subsection "
 "remain included in grade calculations."
-msgstr ""
+msgstr "在分段之后隐藏学习者一个分段的内容由于日期已经过了，选择这个分段的图标，然后选择{em_start}在到期后隐藏内容{em_end}.这个分段的成绩仍然包括在成绩计算中。"
 
 #: cms/templates/course_outline.html:220
 msgid "Learn more about content visibility settings"
-msgstr ""
+msgstr "了解更多关于内容可见性设置的信息"
 
 #. Translators: Pages refer to the tabs that appear in the top navigation of
 #. each course.
@@ -882,7 +882,7 @@ msgid ""
 "Pages are listed horizontally at the top of your course. Default pages "
 "(Home, Course, Discussion, Wiki, and Progress) are followed by textbooks and"
 " custom pages that you create."
-msgstr ""
+msgstr "页面在您的课程顶部水平列出。默认的页面(主页，课程，讨论，维基，和项目)在您创造的课本和页面定制的下面。"
 
 #: cms/templates/edit-tabs.html:147
 msgid "Custom pages"
@@ -922,7 +922,7 @@ msgid ""
 "Pages appear in your course's top navigation bar. The default pages (Home, "
 "Course, Discussion, Wiki, and Progress) are followed by textbooks and custom"
 " pages."
-msgstr ""
+msgstr "页面显示在你的课程的顶部导航栏。这个默认的页面(主页，课程，讨论，wiki，和项目)是在教课书和惯例页面的下面。"
 
 #: cms/templates/edit-tabs.html:168 cms/templates/howitworks.html:182
 #: cms/templates/howitworks.html:195 cms/templates/howitworks.html:208
@@ -1029,37 +1029,37 @@ msgstr "导出课程内容"
 
 #: cms/templates/export.html:108
 msgid "Library Export Status"
-msgstr ""
+msgstr "知识库导出状态"
 
 #: cms/templates/export.html:110
 msgid "Course Export Status"
-msgstr ""
+msgstr "课程导出状态"
 
 #: cms/templates/export.html:122
 msgid "Preparing"
-msgstr ""
+msgstr "准备"
 
 #: cms/templates/export.html:126
 msgid "Preparing to start the export"
-msgstr ""
+msgstr "准备开始导出"
 
 #: cms/templates/export.html:137
 msgid "Exporting"
-msgstr ""
+msgstr "正在导出"
 
 #: cms/templates/export.html:138
 msgid ""
 "Creating the export data files (You can now leave this page safely, but "
 "avoid making drastic changes to content until this export is complete)"
-msgstr ""
+msgstr "创建导出文件(您现在可以安全的离开这个页面，但是避免对内容进行重大修改直到导出完成。)"
 
 #: cms/templates/export.html:149
 msgid "Compressing"
-msgstr ""
+msgstr "正在压缩"
 
 #: cms/templates/export.html:150
 msgid "Compressing the exported data and preparing it for download"
-msgstr ""
+msgstr "压缩这个导出数据并且准备下载它。"
 
 #: cms/templates/export.html:161 cms/templates/import.html:175
 msgid "Success"
@@ -1067,19 +1067,19 @@ msgstr "成功"
 
 #: cms/templates/export.html:166
 msgid "Your exported library can now be downloaded"
-msgstr ""
+msgstr "您导出的知识库现在能够被下载"
 
 #: cms/templates/export.html:168
 msgid "Your exported course can now be downloaded"
-msgstr ""
+msgstr "您导出的课程现在能够被下载"
 
 #: cms/templates/export.html:176
 msgid "Download Exported Library"
-msgstr ""
+msgstr "下载导出的知识库"
 
 #: cms/templates/export.html:178
 msgid "Download Exported Course"
-msgstr ""
+msgstr "下载导出的课程"
 
 #: cms/templates/export.html:192
 msgid "Data {em_start}exported with{em_end} your course:"
@@ -1251,7 +1251,7 @@ msgstr "这个模块目前被禁用。"
 
 #: cms/templates/group_configurations.html:85
 msgid "Enrollment Track Groups"
-msgstr ""
+msgstr "选修足迹"
 
 #: cms/templates/group_configurations.html:86
 msgid ""
@@ -1259,20 +1259,20 @@ msgid ""
 "learners in each enrollment track. Learners enrolled in each enrollment "
 "track in your course are automatically included in the corresponding "
 "enrollment track group."
-msgstr ""
+msgstr "选课足迹能够提供您不同的课程内容给学习者在每个选课模块。学习者在您的课程里选修每个选修课会自动相应的被包括进选修的足迹。"
 
 #: cms/templates/group_configurations.html:87
 msgid ""
 "On unit pages in the course outline, you can restrict access to components "
 "to learners based on their enrollment track."
-msgstr ""
+msgstr "一个线上课程的单元页面，您能限制学习者对组件的访问基于他们的选修足迹。"
 
 #: cms/templates/group_configurations.html:88
 msgid ""
 "You cannot edit enrollment track groups, but you can expand each group to "
 "view details of the course content that is designated for learners in the "
 "group."
-msgstr ""
+msgstr "您不能编辑选修足迹，但是您能扩展每个组去查看在这个组认定的学习者的课程内容的详细信息。"
 
 #: cms/templates/group_configurations.html:89
 #: cms/templates/group_configurations.html:99
@@ -1298,7 +1298,7 @@ msgid ""
 " can restrict access to some content to learners in specific content groups."
 " Only learners in the cohorts that are associated with the specified content"
 " groups see the additional content."
-msgstr ""
+msgstr "每一个您创造的内容模块能够被一个或者更多个群组关联。除了为所有学习者提供课程内容之外，您能限制某个特定内容组的学习者对某些内容的访问。只有在群组被关联的特定的内容组的学习者能够看到这个额外的内容。"
 
 #: cms/templates/group_configurations.html:98
 msgid ""
@@ -1316,7 +1316,7 @@ msgid ""
 "configurations define how many groups of learners are in a content "
 "experiment. When you create a content experiment for a course, you select "
 "the group configuration to use."
-msgstr ""
+msgstr "如果您正在进行实验内容，请使用实验组配置，也被称为A/B测试在您的课程里。实验组配置决定了有多少学习者在一个内容中实验。当您创造一个课程的实验内容时，您选择一个组配置去使用。"
 
 #: cms/templates/group_configurations.html:107
 msgid ""
@@ -1357,7 +1357,7 @@ msgstr "{studio_name}帮助您保持课程有序组织"
 #: cms/templates/howitworks.html:42 cms/templates/howitworks.html:87
 #: cms/templates/howitworks.html:121
 msgid "Enlarge image"
-msgstr ""
+msgstr "放大图片"
 
 #: cms/templates/howitworks.html:48
 msgid "Keeping Your Course Organized"
@@ -1368,7 +1368,8 @@ msgid ""
 "The backbone of your course is how it is organized. {studio_name} offers an "
 "{strong_start}Outline{strong_end} editor, providing a simple hierarchy and "
 "easy drag and drop to help you and your students stay organized."
-msgstr ""
+msgstr "您的课程的主干是怎样被有序组织的。{studio_name}提供一个{strong_start}大纲{strong_end}
+编辑，提供一个简单的层级和简单的拖拽来帮助您和您的学生保持条理。"
 
 #: cms/templates/howitworks.html:57
 msgid "Simple Organization For Content"
@@ -1378,7 +1379,7 @@ msgstr "简单地组织内容"
 msgid ""
 "{studio_name} uses a simple hierarchy of {strong_start}sections{strong_end} "
 "and {strong_start}subsections{strong_end} to organize your content."
-msgstr ""
+msgstr "{studio_name}使用一个{strong_start}部分{strong_end}和{strong_start}分段的简单的层级去组织您的内容。"
 
 #: cms/templates/howitworks.html:66
 msgid "Change Your Mind Anytime"
@@ -1398,7 +1399,7 @@ msgstr "按星期或学期发布内容"
 msgid ""
 "Build and release {strong_start}sections{strong_end} to your students "
 "incrementally. You don't have to have it all done at once."
-msgstr ""
+msgstr "增加构建和发布{strong_start}部分{strong_end}给您的学生。您不需要一次性完成所有的工作。"
 
 #: cms/templates/howitworks.html:84 cms/templates/howitworks.html:85
 #: cms/templates/howitworks.html:93
@@ -1479,7 +1480,7 @@ msgid ""
 "When you've finished a {strong_start}section{strong_end}, pick when you want"
 " it to go live and {studio_name} takes care of the rest. Build your course "
 "incrementally."
-msgstr ""
+msgstr "当您已经完成一个{strong_start}部分{strong_end}，当您想要启动您挑选的并且{studio_name}关注剩余部分。增加构建您的课程。"
 
 #: cms/templates/howitworks.html:146
 msgid "Work in Teams"
@@ -1497,7 +1498,7 @@ msgstr "立即在{studio_name}注册！"
 
 #: cms/templates/howitworks.html:164
 msgid "Sign Up & Start Making Your {platform_name} Course"
-msgstr ""
+msgstr "注册并开始制作您的{platform_name}课程"
 
 #: cms/templates/howitworks.html:167
 msgid "Already have a {studio_name} Account? Sign In"
@@ -1511,7 +1512,7 @@ msgstr "列出您的课程大纲"
 msgid ""
 "Simple two-level outline to organize your course. Drag and drop, and see "
 "your course at a glance."
-msgstr ""
+msgstr "简单的两个大纲去组织您的课程。拖放，并且看到您的课程。"
 
 #: cms/templates/howitworks.html:187
 msgid "More than Just Lectures"
@@ -1802,21 +1803,21 @@ msgid ""
 "organization name is part of the course URL.{strong_end} This cannot be "
 "changed, but you can set a different display name in Advanced Settings "
 "later."
-msgstr ""
+msgstr "赞助该课程的组织的名称。{strong_start}注意：这个组织的名字是课程URL的一部分。{strong_end}这是不能被改变的，但是你能设置一个不同的显示名称在高级设置里。"
 
 #: cms/templates/index.html:97
 msgid ""
 "The unique number that identifies your course within your organization. "
 "{strong_start}Note: This is part of your course URL, so no spaces or special"
 " characters are allowed and it cannot be changed.{strong_end}"
-msgstr ""
+msgstr "在组织内确定你的课程的唯一编号。{strong_start}注意：这是您课程URL的一部分，所以没有空格或特殊字符被允许并且它不能被改变。{strong_end}"
 
 #: cms/templates/index.html:109
 msgid ""
 "The term in which your course will run. {strong_start}Note: This is part of "
 "your course URL, so no spaces or special characters are allowed and it "
 "cannot be changed.{strong_end}"
-msgstr ""
+msgstr "：您的课程将会运行。 {strong_start}注意：这是您课程URL的一部分，所以没有空格或特殊字符被允许并且它不能被改变。{strong_end}"
 
 #: cms/templates/index.html:122 cms/templates/index.html:182
 msgid "Create"
@@ -1871,19 +1872,19 @@ msgid ""
 "The unique code that identifies this library. {strong_start}Note: This is "
 "part of your library URL, so no spaces or special characters are "
 "allowed.{strong_end} This cannot be changed."
-msgstr ""
+msgstr "识别这个知识库的惟一代码。{strong_start}注意：这是您知识库URL的一部分，所以没有空格或特殊字符被允许。{strong_end}这是不能被改变的。"
 
 #: cms/templates/index.html:191
 msgid "Organization and Library Settings"
-msgstr ""
+msgstr "组织和知识库设置"
 
 #: cms/templates/index.html:195
 msgid "Show all courses in organization:"
-msgstr ""
+msgstr "显示所有的课程在组织里"
 
 #: cms/templates/index.html:197
 msgid "For example, MITx"
-msgstr ""
+msgstr "例如，MITx"
 
 #: cms/templates/index.html:211
 msgid "Courses Being Processed"
@@ -1934,7 +1935,7 @@ msgstr "在处理您的课程过程中发生了系统错误。请回到原始课
 
 #: cms/templates/index.html:318
 msgid "Archived Courses"
-msgstr ""
+msgstr "存档的课程"
 
 #: cms/templates/index.html:321
 msgid "Libraries"
@@ -2096,7 +2097,7 @@ msgid ""
 "Almost there! In order to complete your sign up we need you to verify your "
 "email address ({email}). An activation message and next steps should be "
 "waiting for you there."
-msgstr ""
+msgstr "快要完成了。为了实现您的注册我们需要您去核实您的email地址({email}).一条激活信息将会在下一步发给您。"
 
 #: cms/templates/index.html:547
 msgid "Need help?"
@@ -2491,11 +2492,11 @@ msgstr "课程结束时间"
 
 #: cms/templates/settings.html:222
 msgid "Certificates Available Date"
-msgstr ""
+msgstr "证书有效日期"
 
 #: cms/templates/settings.html:224
 msgid "By default, 48 hours after course end date"
-msgstr ""
+msgstr "默认情况下，在课程结束后48小时"
 
 #: cms/templates/settings.html:233
 msgid "Enrollment Start Date"
@@ -2519,7 +2520,7 @@ msgstr "学生可以选课的最后一天。"
 
 #: cms/templates/settings.html:255
 msgid "Contact your edX partner manager to update these settings."
-msgstr ""
+msgstr "联系你的edX伙伴管理者来更新这些设置"
 
 #: cms/templates/settings.html:261
 msgid "Enrollment End Time"
@@ -2534,9 +2535,9 @@ msgid ""
 "These dates impact {strong_start}when your courseware can be "
 "viewed{strong_end}, but they are {strong_start}not the dates shown on your "
 "course summary page{strong_end}. To provide the course start and "
-"registration dates as shown on your course summary page, follow the "
+"registration dates as shown on your course summary page, follow the"
 "instructions provided by your Program Manager."
-msgstr ""
+msgstr "这些日期影响{strong_start}当您的课件能够被浏览{strong_end}，但是它们是{strong_start}不显示日期在您的课程摘要界面{strong_end}。去提供课程开始并且显示注册日期在课程摘要页面上，按照您的程序管理者提供的说明进行操作。"
 
 #: cms/templates/settings.html:289
 msgid "Course Details"
@@ -2553,9 +2554,9 @@ msgstr "课程语言"
 #: cms/templates/settings.html:301
 msgid ""
 "Identify the course language here. This is used to assist users find courses"
-" that are taught in a specific language. It is also used to localize the "
+"that are taught in a specific language. It is also used to localize the "
 "'From:' field in bulk emails."
-msgstr ""
+msgstr "确定这里的课程语言。这是用来帮助用户找到以特定语言教学的课程.它还被用于在大部分电子邮件中本地化"Form:"。"
 
 #: cms/templates/settings.html:310
 msgid "Introducing Your Course"
@@ -2571,7 +2572,7 @@ msgstr "课程标题"
 
 #: cms/templates/settings.html:319
 msgid "Displayed as title on the course details page. Limit to 50 characters."
-msgstr ""
+msgstr "在课程详细信息页面显示标题。限制50个字符。"
 
 #: cms/templates/settings.html:322
 msgid "Course Subtitle"
@@ -2580,15 +2581,15 @@ msgstr "课程子标题"
 #: cms/templates/settings.html:324
 msgid ""
 "Displayed as subtitle on the course details page. Limit to 150 characters."
-msgstr ""
+msgstr "在课程详细信息页面显示副标题。限制150个字符"
 
 #: cms/templates/settings.html:327
 msgid "Course Duration"
-msgstr ""
+msgstr "课程期限"
 
 #: cms/templates/settings.html:329
 msgid "Displayed on the course details page. Limit to 50 characters."
-msgstr ""
+msgstr "在课程详细信息页面上显示。限制50个字符。"
 
 #: cms/templates/settings.html:332
 msgid "Course Description"
@@ -2596,7 +2597,7 @@ msgstr "课程描述"
 
 #: cms/templates/settings.html:334
 msgid "Displayed on the course details page. Limit to 1000 characters."
-msgstr ""
+msgstr "在课程详细信息页面上显示。限制1000个字符"
 
 #: cms/templates/settings.html:340
 msgid "Course Short Description"
@@ -2614,13 +2615,13 @@ msgstr "课程概览"
 
 #: cms/templates/settings.html:351
 msgid "HTML Code Editor"
-msgstr ""
+msgstr "HTML代码编辑器"
 
 #: cms/templates/settings.html:354
 msgid ""
-"Introductions, prerequisites, FAQs that are used on {a_link_start}your "
+"Introductions, prerequisites, FAQs that are used on {a_link_start}your"
 "course summary page{a_link_end} (formatted in HTML)"
-msgstr ""
+msgstr "介绍，先决条件，常见的问题解答通常在{a_link_start}你的课程摘要页面{a_link_end} (formatted in HTML)"
 
 #: cms/templates/settings.html:362 cms/templates/settings.html:366
 #: cms/templates/settings.html:378
@@ -2630,9 +2631,8 @@ msgstr "课程卡图片"
 #: cms/templates/settings.html:370 cms/templates/settings.html:404
 #: cms/templates/settings.html:437
 msgid ""
-"You can manage this image along with all of your other {a_link_start}files "
-"and uploads{a_link_end}"
-msgstr ""
+"You can manage this image along with all of your other {a_link_start}files and uploads{a_link_end}"
+msgstr "你可以和其他所有人{a_link_start}一起管理这张图片文件并且上传{a_link_end}。"
 
 #: cms/templates/settings.html:380
 msgid ""
@@ -2665,19 +2665,19 @@ msgstr "课程图标"
 msgid ""
 "Your course currently does not have an image. Please upload one (JPEG or PNG"
 " format, and minimum suggested dimensions are 1440px wide by 400px tall)"
-msgstr ""
+msgstr "您的课程目前没有图片。请上传一张(JPEG或者PNG)格式，并且最小建议尺寸为 1440px宽 400px高。"
 
 #. Translators: This is the placeholder text for a field that requests the URL
 #. for a course banner image
 #: cms/templates/settings.html:421
 msgid "Your banner image URL"
-msgstr ""
+msgstr "您的标语图片URL"
 
 #: cms/templates/settings.html:422
 msgid ""
 "Please provide a valid path and name to your banner image (Note: only JPEG "
 "or PNG format supported)"
-msgstr ""
+msgstr "请提供一个有效途径和名字给您的标语图片(注意:仅仅支持JPEG或者PNG格式)"
 
 #: cms/templates/settings.html:424
 msgid "Upload Course Banner Image"
@@ -2696,19 +2696,19 @@ msgid ""
 "Your course currently does not have a video thumbnail image. Please upload "
 "one (JPEG or PNG format, and minimum suggested dimensions are 375px wide by "
 "200px tall)"
-msgstr ""
+msgstr "您的课程目前没有一个视频缩略图。请上传一个(JPEG或者PNG格式，并且最小建议尺寸为 375px宽 200px高)"
 
 #. Translators: This is the placeholder text for a field that requests the URL
 #. for a course video thumbnail image
 #: cms/templates/settings.html:454
 msgid "Your video thumbnail image URL"
-msgstr ""
+msgstr "您的视频缩略图URL。"
 
 #: cms/templates/settings.html:455
 msgid ""
 "Please provide a valid path and name to your video thumbnail image (Note: "
 "only JPEG or PNG format supported)"
-msgstr ""
+msgstr "请提供一个有效途径和名字给您的视频缩略图(注意:仅仅支持JPEG或者PNG格式)"
 
 #: cms/templates/settings.html:457
 msgid "Upload Video Thumbnail Image"
@@ -2734,19 +2734,19 @@ msgstr "请输入您的YouTube视频编号(以及任何必要的限制参数)"
 
 #: cms/templates/settings.html:488
 msgid "Learning Outcomes"
-msgstr ""
+msgstr "学习成果"
 
 #: cms/templates/settings.html:489
 msgid "Add the learning outcomes for this course"
-msgstr ""
+msgstr "添加这门课程的学习收获"
 
 #: cms/templates/settings.html:496
 msgid "Add Learning Outcome"
-msgstr ""
+msgstr "添加学习成果"
 
 #: cms/templates/settings.html:505
 msgid "Add details about the instructors for this course"
-msgstr ""
+msgstr "对于这门课程的讲师添加细节"
 
 #: cms/templates/settings.html:512
 msgid "Add Instructor"
@@ -2878,7 +2878,7 @@ msgstr "手工策略定义"
 msgid ""
 "{strong_start}Warning{strong_end}: Do not modify these policies unless you "
 "are familiar with their purpose."
-msgstr ""
+msgstr "{strong_start}警告{strong_end}:不要修改这些策略除非您对它们的用途十分熟悉。"
 
 #: cms/templates/settings_advanced.html:70
 msgid "Show Deprecated Settings"
@@ -2907,7 +2907,7 @@ msgid ""
 "{em_start}Note:{em_end} When you enter strings as policy values, ensure that"
 " you use double quotation marks (\") around the string. Do not use single "
 "quotation marks (')."
-msgstr ""
+msgstr "{em_start}注意:{em_end}当您输入作为策略值的字符串，确认您使用双引号标记字符串，不要仅仅使用单引号标记。"
 
 #: cms/templates/settings_graders.html:3
 msgid "Grading Settings"
@@ -2923,7 +2923,7 @@ msgstr "您对学生最终得分的整体评分范围"
 
 #: cms/templates/settings_graders.html:61
 msgid "Add grade"
-msgstr ""
+msgstr "添加成绩"
 
 #: cms/templates/settings_graders.html:90
 msgid "Credit Eligibility"
@@ -3000,11 +3000,11 @@ msgstr "展开或折叠"
 
 #: cms/templates/studio_xblock_wrapper.html:88
 msgid "Access Settings"
-msgstr ""
+msgstr "存取设定"
 
 #: cms/templates/studio_xblock_wrapper.html:90
 msgid "Set Access"
-msgstr ""
+msgstr "设置权限"
 
 #: cms/templates/studio_xblock_wrapper.html:143
 msgid "This block contains multiple components."
@@ -3054,42 +3054,42 @@ msgstr "视频上传"
 #: cms/templates/visibility_editor.html:20
 #: cms/templates/visibility_editor.html:70
 msgid "Access is not restricted"
-msgstr ""
+msgstr "访问不受限制"
 
 #: cms/templates/visibility_editor.html:23
 msgid ""
 "Access to this unit is not restricted, but visibility might be affected by "
 "inherited settings."
-msgstr ""
+msgstr "对该单元的访问不受限制，但是可见性可能会受到影响通过继承设置。"
 
 #: cms/templates/visibility_editor.html:25
 msgid ""
 "Access to this component is not restricted, but visibility might be affected"
 " by inherited settings."
-msgstr ""
+msgstr "对该组件的访问不受限制，但是可见性可能会受到影响通过继承设置。"
 
 #: cms/templates/visibility_editor.html:29
 msgid ""
 "You can restrict access to this unit to learners in specific enrollment "
 "tracks or content groups."
-msgstr ""
+msgstr "你可以在特定的注册或内容组中限制对这个单元的访问。"
 
 #: cms/templates/visibility_editor.html:31
 msgid ""
-"You can restrict access to this component to learners in specific enrollment"
-" tracks or content groups."
-msgstr ""
+"You can restrict access to this component to learners in specific enrollment "
+"tracks or content groups."
+msgstr "你可以将这个组件的访问限制在特定的注册或内容组中。"
 
 #: cms/templates/visibility_editor.html:35
 msgid ""
 "You can restrict access to this unit to learners in specific content groups."
-msgstr ""
+msgstr "你能够限制对特定内容组的学习者对于这个单元的访问。"
 
 #: cms/templates/visibility_editor.html:37
 msgid ""
 "You can restrict access to this component to learners in specific content "
 "groups."
-msgstr ""
+msgstr "你能够限制对特定内容组的学习者对于这个组件的访问"
 
 #: cms/templates/visibility_editor.html:43
 msgid "Manage content groups"
@@ -3300,7 +3300,7 @@ msgstr "知识库"
 
 #: cms/templates/widgets/header.html:190
 msgid "Language preference"
-msgstr ""
+msgstr "语言偏好"
 
 #: cms/templates/widgets/header.html:215 cms/templates/widgets/header.html:228
 msgid "Account Navigation"
@@ -3415,4 +3415,4 @@ msgstr "当前登录用户："
 
 #: cms/templates/widgets/user_dropdown.html:51
 msgid "Maintenance"
-msgstr ""
+msgstr "维护"
