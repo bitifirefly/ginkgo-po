@@ -93,7 +93,7 @@ msgstr "添加组件："
 #: cms/templates/js/add-xblock-component-menu.underscore:4
 #, python-format
 msgid "%(type)s Component Template Menu"
-msgstr ""
+msgstr "%(type)s组件模板菜单"
 
 #: cms/templates/js/add-xblock-component-menu-problem.underscore:10
 msgid "Common Problem Types"
@@ -237,7 +237,7 @@ msgstr "课程代码"
 
 #: cms/templates/js/certificate-details.underscore:42
 msgid "Course Number Override"
-msgstr ""
+msgstr "课程覆盖数"
 
 #: cms/templates/js/certificate-details.underscore:53
 #: cms/templates/js/certificate-editor.underscore:36
@@ -278,7 +278,7 @@ msgstr "课程标题"
 msgid ""
 "Specify an alternative to the official course title to display on "
 "certificates. Leave blank to use the official course title."
-msgstr ""
+msgstr "指定在证书上显示的官方课程标题的另一种选择。留空使用正式课程名称。"
 
 #: cms/templates/js/certificate-editor.underscore:41
 msgid "Add Additional Signatory"
@@ -320,13 +320,13 @@ msgstr "组件"
 
 #: cms/templates/js/container-access.underscore:16
 msgid "Access to this {blockType} is restricted to: {selectedGroupsLabel}"
-msgstr ""
+msgstr "对这个{blockType}的访问仅限于:{selectedGroupsLabel}"
 
 #: cms/templates/js/container-access.underscore:26
 msgid ""
 "Access to some content in this {blockType} is restricted to specific groups "
 "of learners."
-msgstr ""
+msgstr "对这种 {blockType}的某些内容的访问仅限于特定组的学习者"
 
 #: cms/templates/js/container-message.underscore:5
 msgid ""
@@ -357,15 +357,15 @@ msgstr "在单元中使用时不能被删除"
 
 #: cms/templates/js/content-visibility-editor.underscore:2
 msgid "Subsection Visibility"
-msgstr ""
+msgstr "分段的可见性"
 
 #: cms/templates/js/content-visibility-editor.underscore:7
 msgid "Show entire subsection"
-msgstr ""
+msgstr "显示整个分段"
 
 #: cms/templates/js/content-visibility-editor.underscore:9
 msgid "Learners see the published subsection and can access its content."
-msgstr ""
+msgstr "学习者可以看到已发布的子部分，并且可以访问它的内容。"
 
 #: cms/templates/js/content-visibility-editor.underscore:13
 msgid "Hide content after course end date"
@@ -379,23 +379,23 @@ msgstr "截止日期后隐藏日期"
 msgid ""
 "After the course\\'s end date has passed, learners can no longer access "
 "subsection content. The subsection remains included in grade calculations."
-msgstr ""
+msgstr "课程结束日期过后，学习者就不能再访问分段内容了。子部分仍然包括在年级计算中。"
 
 #: cms/templates/js/content-visibility-editor.underscore:22
 msgid ""
 "After the subsection\\'s due date has passed, learners can no longer access "
 "its content. The subsection remains included in grade calculations."
-msgstr ""
+msgstr "在分段预定的日期过后，学习者不能再访问它的内容了。子部分仍然包括在年级计算中。"
 
 #: cms/templates/js/content-visibility-editor.underscore:27
 msgid "Hide entire subsection"
-msgstr ""
+msgstr "隐藏整个分段"
 
 #: cms/templates/js/content-visibility-editor.underscore:30
 msgid ""
 "Learners do not see the subsection in the course outline. The subsection is "
 "not included in grade calculations."
-msgstr ""
+msgstr "学习者在课程大纲中看不到子部分。子部分不包括在年级计算中。"
 
 #: cms/templates/js/content-visibility-editor.underscore:36
 #, python-format
@@ -403,7 +403,7 @@ msgid ""
 "If you select an option other than \"%(hide_label)s\", published units in "
 "this subsection become available to learners unless they are explicitly "
 "hidden."
-msgstr ""
+msgstr "如果你选择了除\"%(hide_label)s\"以外的选项，那么在这个子部分中已经发布的单元可以被学习者使用，除非它们被明确地隐藏起来。"
 
 #: cms/templates/js/course-instructor-details.underscore:4
 msgid "Instructor Name"
@@ -432,7 +432,7 @@ msgstr "机构名称"
 
 #: cms/templates/js/course-instructor-details.underscore:17
 msgid "Please add the institute where the instructor is associated"
-msgstr ""
+msgstr "请加入讲师相关的学院"
 
 #: cms/templates/js/course-instructor-details.underscore:21
 msgid "Biography"
@@ -491,13 +491,13 @@ msgstr "将在未来公开的、尚未发布的内容更新"
 
 #: cms/templates/js/course-outline.underscore:66
 msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
-msgstr ""
+msgstr "对该单元的访问仅限于此:{selectedGroupsLabel}"
 
 #: cms/templates/js/course-outline.underscore:75
 msgid ""
 "Access to some content in this unit is restricted to specific groups of "
 "learners"
-msgstr ""
+msgstr "访问这个单元的一些内容仅限于特定组的学习者"
 
 #: cms/templates/js/course-outline.underscore:80
 msgid "Ungraded"
@@ -505,7 +505,7 @@ msgstr "未分级"
 
 #: cms/templates/js/course-outline.underscore:89
 msgid "Practice proctored Exam"
-msgstr ""
+msgstr "实践监督考试"
 
 #: cms/templates/js/course-outline.underscore:91
 msgid "Proctored Exam"
@@ -573,11 +573,11 @@ msgstr "截止时间："
 
 #: cms/templates/js/course-outline.underscore:235
 msgid "Subsection is hidden after course end date"
-msgstr ""
+msgstr "分段隐藏在课程结束日期之后"
 
 #: cms/templates/js/course-outline.underscore:237
 msgid "Subsection is hidden after due date"
-msgstr ""
+msgstr "分段在到期后隐藏"
 
 #: cms/templates/js/course-outline.underscore:259
 #: cms/templates/js/xblock-outline.underscore:57
@@ -594,11 +594,11 @@ msgstr "点击添加一个新%(xblock_type)s"
 
 #: cms/templates/js/course-settings-learning-fields.underscore:2
 msgid "Learning Outcome"
-msgstr ""
+msgstr "学习成果"
 
 #: cms/templates/js/course-settings-learning-fields.underscore:3
 msgid "Add a learning outcome here"
-msgstr ""
+msgstr "在这添加一个学习成果"
 
 #: cms/templates/js/course_grade_policy.underscore:3
 msgid "Assignment Type Name"
@@ -608,7 +608,7 @@ msgstr "作业类型名称"
 msgid ""
 "The general category for this type of assignment, for example, Homework or "
 "Midterm Exam. This name is visible to learners."
-msgstr ""
+msgstr "这类任务的一般类别，例如作业或期中考试。这个名字对学习者来说是可见的。"
 
 #: cms/templates/js/course_grade_policy.underscore:9
 msgid "Abbreviation"
@@ -618,7 +618,7 @@ msgstr "缩写"
 msgid ""
 "This short name for the assignment type (for example, HW or Midterm) appears"
 " next to assignments on a learner's Progress page."
-msgstr ""
+msgstr 任务类型的短名称(例如，HW或期中考试)出现在学习者的进度页上。"
 
 #: cms/templates/js/course_grade_policy.underscore:15
 msgid "Weight of Total Grade"
@@ -628,7 +628,7 @@ msgstr "在总评分中的权重"
 msgid ""
 "The weight of all assignments of this type as a percentage of the total "
 "grade, for example, 40. Do not include the percent symbol."
-msgstr ""
+msgstr "这类的重量占总成绩的百分比，例如，40。不要包含百分号。"
 
 #: cms/templates/js/course_grade_policy.underscore:21
 msgid "Total Number"
@@ -638,7 +638,7 @@ msgstr "总数"
 msgid ""
 "The number of subsections in the course that contain problems of this "
 "assignment type."
-msgstr ""
+msgstr "课程中包含任务类型问题的子部分的数量"
 
 #: cms/templates/js/course_grade_policy.underscore:27
 msgid "Number of Droppable"
@@ -648,7 +648,7 @@ msgstr "可放弃的数量"
 msgid ""
 "The number of assignments of this type that will be dropped. The lowest "
 "scoring assignments are dropped first."
-msgstr ""
+msgstr "这种类型的任务的数量将会被删除。得分最低的任务被首先放弃。"
 
 #: cms/templates/js/course_info_handouts.underscore:3
 msgid "Course Handouts"
@@ -695,7 +695,7 @@ msgstr "章名称"
 
 #: cms/templates/js/edit-chapter.underscore:4
 msgid "Chapter {order}"
-msgstr ""
+msgstr "章{order}"
 
 #: cms/templates/js/edit-chapter.underscore:5
 msgid "provide the title/name of the chapter that will be used in navigating"
@@ -707,7 +707,7 @@ msgstr "章资源"
 
 #: cms/templates/js/edit-chapter.underscore:10
 msgid "path/to/introductionToCookieBaking-CH{order}.pdf"
-msgstr ""
+msgstr "路径/去/introductionToCookieBaking-CH{order}.pdf"
 
 #: cms/templates/js/edit-chapter.underscore:11
 msgid "upload a PDF file or provide the path to a Studio asset file"
@@ -772,7 +772,7 @@ msgstr "此群组设定用于："
 msgid ""
 "This Group Configuration is not in use. Start by adding a content experiment"
 " to any Unit via the {linkStart}Course Outline{linkEnd}."
-msgstr ""
+msgstr "这个组的配置没有使用。首先添加一个内容实验去通过一个单元{linkStart}课程大纲{linkEnd}"
 
 #: cms/templates/js/group-configuration-details.underscore:88
 #: cms/templates/js/partition-group-details.underscore:63
@@ -912,7 +912,7 @@ msgstr "清除值"
 
 #: cms/templates/js/metadata-editor.underscore:8
 msgid "Component Location ID"
-msgstr ""
+msgstr "组件位置ID"
 
 #: cms/templates/js/metadata-file-uploader-item.underscore:1
 #: cms/templates/js/video/metadata-translations-item.underscore:5
@@ -931,19 +931,19 @@ msgstr "下载"
 
 #: cms/templates/js/move-xblock-list.underscore:7
 msgid "{categoryText} in {parentDisplayname}"
-msgstr ""
+msgstr "{categoryText} 在 {parentDisplayname}"
 
 #: cms/templates/js/move-xblock-list.underscore:28
 msgid "Current location"
-msgstr ""
+msgstr "当前位置"
 
 #: cms/templates/js/move-xblock-list.underscore:32
 msgid "View child items"
-msgstr ""
+msgstr "查看子元素"
 
 #: cms/templates/js/move-xblock-list.underscore:41
 msgid "Currently selected"
-msgstr ""
+msgstr "当前选择的"
 
 #: cms/templates/js/no-textbooks.underscore:2
 msgid "You haven't added any textbooks to this course yet."
@@ -955,13 +955,13 @@ msgstr "添加第一本课本"
 
 #: cms/templates/js/partition-group-details.underscore:47
 msgid "This group controls access to:"
-msgstr ""
+msgstr "这个组控制访问："
 
 #: cms/templates/js/partition-group-details.underscore:59
 msgid ""
 "In the {linkStart}Course Outline{linkEnd}, use this group to control access "
 "to a component."
-msgstr ""
+msgstr "在这个{linkStart}课程大纲{linkEnd}里，使用这个组去控制访问一个组件"
 
 #: cms/templates/js/previous-video-upload-list.underscore:2
 msgid "Previous Uploads"
@@ -973,7 +973,7 @@ msgstr "下载可用的编码方式(.csv)"
 
 #: cms/templates/js/previous-video-upload-list.underscore:12
 msgid "Thumbnail"
-msgstr ""
+msgstr "缩略图"
 
 #: cms/templates/js/previous-video-upload-list.underscore:16
 msgid "Video ID"
@@ -981,11 +981,11 @@ msgstr "视频 ID"
 
 #: cms/templates/js/previous-video-upload.underscore:12
 msgid "Remove this video"
-msgstr ""
+msgstr "删除这个视频"
 
 #: cms/templates/js/previous-video-upload.underscore:14
 msgid "Remove {video_name} video"
-msgstr ""
+msgstr "删除{ video_name }视频"
 
 #: cms/templates/js/publish-history.underscore:2
 msgid "Never published"
@@ -1033,13 +1033,13 @@ msgstr "发布状态"
 msgid ""
 "Draft saved on {lastSavedStart}{editedOn}{lastSavedEnd} by "
 "{editedByStart}{editedBy}{editedByEnd}"
-msgstr ""
+msgstr "草稿被{editedByStart}{editedBy}{editedByEnd}保存在 {lastSavedStart}{editedOn}{lastSavedEnd}"
 
 #: cms/templates/js/publish-xblock.underscore:43
 msgid ""
 "Last published {lastPublishedStart}{publishedOn}{lastPublishedEnd} by "
 "{publishedByStart}{publishedBy}{publishedByEnd}"
-msgstr ""
+msgstr "上一次被{publishedByStart}{publishedBy}{publishedByEnd}发布{lastPublishedStart}{publishedOn}{lastPublishedEnd}"
 
 #: cms/templates/js/publish-xblock.underscore:67
 #, python-format
@@ -1065,7 +1065,7 @@ msgstr "与%(section_or_subsection)s"
 
 #: cms/templates/js/publish-xblock.underscore:98
 msgid "Staff and Learners"
-msgstr ""
+msgstr "工作人员和学生"
 
 #: cms/templates/js/publish-xblock.underscore:108
 #: cms/templates/js/staff-lock-editor.underscore:12
@@ -1074,7 +1074,7 @@ msgstr "对学习这隐藏"
 
 #: cms/templates/js/publish-xblock.underscore:113
 msgid "Note: Do not hide graded assignments after they have been released."
-msgstr ""
+msgstr "注意：在被释放后，不要隐藏等级分配的任务"
 
 #: cms/templates/js/publish-xblock.underscore:126
 msgid "Discard Changes"
@@ -1099,57 +1099,57 @@ msgstr "清除公开日期／时间"
 
 #: cms/templates/js/show-correctness-editor.underscore:2
 msgid "Assessment Results Visibility"
-msgstr ""
+msgstr "评估结果的可见性"
 
 #: cms/templates/js/show-correctness-editor.underscore:7
 msgid "Always show assessment results"
-msgstr ""
+msgstr "总是显示评估结果"
 
 #: cms/templates/js/show-correctness-editor.underscore:10
 msgid ""
 "When learners submit an answer to an assessment, they immediately see "
 "whether the answer is correct or incorrect, and the score received."
-msgstr ""
+msgstr "当学习者提交一份评估报告时，他们马上就会看到答案是否正确，并且收到分数。"
 
 #: cms/templates/js/show-correctness-editor.underscore:14
 msgid "Never show assessment results"
-msgstr ""
+msgstr "不显示结果评估"
 
 #: cms/templates/js/show-correctness-editor.underscore:17
 msgid ""
 "Learners never see whether their answers to assessments are correct or "
 "incorrect, nor the score received."
-msgstr ""
+msgstr "学习者不看他们的评估报告答案是否正确，和收获分数。"
 
 #: cms/templates/js/show-correctness-editor.underscore:21
 msgid "Show assessment results when subsection is past due"
-msgstr ""
+msgstr "当分段过期时显示评估结果"
 
 #: cms/templates/js/show-correctness-editor.underscore:25
 msgid ""
 "Learners do not see whether their answers to assessments were correct or "
 "incorrect, nor the score received, until after the course end date has "
 "passed."
-msgstr ""
+msgstr "学习者不看他们的评估报告答案是否正确，和收获分数，直到这个课程结束通过"
 
 #: cms/templates/js/show-correctness-editor.underscore:26
 msgid ""
 "If the course does not have an end date, learners always see their scores "
 "when they submit answers to assessments."
-msgstr ""
+msgstr "如果课程没有结束日期，"
 
 #: cms/templates/js/show-correctness-editor.underscore:28
 msgid ""
 "Learners do not see whether their answers to assessments were correct or "
 "incorrect, nor the score received, until after the due date for the "
 "subsection has passed."
-msgstr ""
+msgstr "学习者不看他们的评估报告答案是否正确，和收获分数，直到日期阶段已经过去"
 
 #: cms/templates/js/show-correctness-editor.underscore:29
 msgid ""
 "If the subsection does not have a due date, learners always see their scores"
 " when they submit answers to assessments."
-msgstr ""
+msgstr "如果子部分没有截止日期，学习者总能看到他们的分数当他们评估报告的答案。"
 
 #: cms/templates/js/show-textbook.underscore:37
 msgid "View Live"
@@ -1193,7 +1193,7 @@ msgstr "签发者称谓"
 msgid ""
 "Titles more than 100 characters may prevent students from printing their "
 "certificate on a single page."
-msgstr ""
+msgstr "标题超过100个字符可能会阻止学生打印他们的证书在一个页面。"
 
 #: cms/templates/js/signatory-editor.underscore:29
 msgid "Organization "
@@ -1207,7 +1207,7 @@ msgstr "组织机构签章"
 msgid ""
 "The organization that this signatory belongs to, as it should appear on "
 "certificates."
-msgstr ""
+msgstr "这个组织的签署属于，因为它应该显示证书。"
 
 #: cms/templates/js/signatory-editor.underscore:43
 msgid "Path to Signature Image"
@@ -1223,17 +1223,17 @@ msgstr "上传签名图片"
 
 #: cms/templates/js/staff-lock-editor.underscore:4
 msgid "Unit Visibility"
-msgstr ""
+msgstr "单元的可见性"
 
 #: cms/templates/js/staff-lock-editor.underscore:6
 msgid "Section Visibility"
-msgstr ""
+msgstr "部分的可见性"
 
 #: cms/templates/js/staff-lock-editor.underscore:17
 msgid ""
 "If the unit was previously published and released to learners, any changes "
 "you made to the unit when it was hidden will now be visible to learners."
-msgstr ""
+msgstr "如果这个单元之前被发布并发布给学习者，您对这个隐藏的单元做的任何改变对学习者来说是可见的"
 
 #: cms/templates/js/staff-lock-editor.underscore:19
 #, python-format
@@ -1242,7 +1242,7 @@ msgid ""
 "to see its content after the release date has passed and you have published "
 "the unit. Only units that are explicitly hidden from learners will remain "
 "hidden after you clear this option for the %(xblockType)s."
-msgstr ""
+msgstr "如果你把这个%(xblockType)对学习者可见，学习者将能够看到内容在发布日期过后并且您已经发布这个单元。只有那些被学习者明确地隐藏的单元将会保留隐藏在您清除这个%(xblockType)s选项后。"
 
 #: cms/templates/js/team-member.underscore:4
 msgid "Current Role:"
@@ -1309,13 +1309,13 @@ msgstr "监考下的考试是计时的，并且每个学生的考试过程将被
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:25
 msgid "Practice Proctored"
-msgstr ""
+msgstr "实践监考"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:27
 msgid ""
 "Use a practice proctored exam to introduce learners to the proctoring tools "
 "and processes. Results of a practice exam do not affect a learner's grade."
-msgstr ""
+msgstr "使用一个实践监考测试给学习者介绍这个监考工具和工具。实践考试的结果不会影响学习者的成绩。"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:33
 msgid "Time Allotted (HH:MM):"
@@ -1326,11 +1326,11 @@ msgid ""
 "Select a time allotment for the exam. If it is over 24 hours, type in the "
 "amount of time. You can grant individual learners extra time to complete the"
 " exam through the Instructor Dashboard."
-msgstr ""
+msgstr "为考试选择一个时间分配。如果它超过24小时，输入时间。您能给个别学习者额外的时间去完成这个考试通过教师指示板。"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:41
 msgid "Review Rules"
-msgstr ""
+msgstr "评审规则"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:49
 msgid ""
@@ -1339,11 +1339,11 @@ msgid ""
 "calculators are allowed. These specified rules are visible to learners "
 "before the learners start the exam, along with the {linkStart}general "
 "proctored exam rules{linkEnd}."
-msgstr ""
+msgstr "指定审查团队在审查视频时应该执行的任何规则或规则异常。例如，您可以指定计算器是允许的。在学习者开始考试之前，这些规定的规则对学习者来说是可见的，以及链接开始的常规考试规则的链接。"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:53
 msgid "General Proctored Exam Rules"
-msgstr ""
+msgstr "一般代理人考试规则"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:58
 msgid ""
@@ -1351,33 +1351,33 @@ msgid ""
 "enforce when reviewing the videos. For example, you could specify that "
 "calculators are allowed. These specified rules are visible to learners "
 "before the learners start the exam."
-msgstr ""
+msgstr "在检查视频时，要指定任何规则或规则异常。例如，您可以指定计算器是允许的。在学习者开始考试前，这些规定的规则是可见的"
 
 #: cms/templates/js/unit-access-editor.underscore:8
 msgid "Unit Access"
-msgstr ""
+msgstr "单元访问"
 
 #: cms/templates/js/unit-access-editor.underscore:11
 msgid "Restrict access to:"
-msgstr ""
+msgstr "限制访问"
 
 #: cms/templates/js/unit-access-editor.underscore:13
 msgid "Select a group type"
-msgstr ""
+msgstr "选择一个组类别"
 
 #: cms/templates/js/unit-access-editor.underscore:24
 msgid "Select one or more groups:"
-msgstr ""
+msgstr "选择一个或多个组"
 
 #: cms/templates/js/unit-access-editor.underscore:31
 msgid "Deleted Group"
-msgstr ""
+msgstr "删除组"
 
 #: cms/templates/js/unit-access-editor.underscore:32
 msgid ""
 "This group no longer exists. Choose another group or do not restrict access "
 "to this unit."
-msgstr ""
+msgstr "这个组已经不存在了。选择另一个组，或者不限制对这个单元的访问。"
 
 #: cms/templates/js/upload-dialog.underscore:25
 msgid "File upload succeeded"
@@ -1399,24 +1399,24 @@ msgstr "必须完成认证检查点"
 
 #: cms/templates/js/verification-access-editor.underscore:23
 msgid "Verification checkpoint to be completed"
-msgstr ""
+msgstr "要完成的验证检查点"
 
 #: cms/templates/js/verification-access-editor.underscore:38
 msgid ""
 "Learners who require verification must pass the selected checkpoint to see "
 "the content in this unit. Learners who do not require verification see this "
 "content by default."
-msgstr ""
+msgstr "需要验证的学习者必须通过所选的检查点来查看本单元的内容。不需要验证的学习者在默认情况下查看此内容。"
 
 #: cms/templates/js/video-thumbnail.underscore:17
 msgid ""
 "Recommended image resolution is {imageResolution}, maximum image file size "
 "should be {maxFileSize} and format must be one of {supportedImageFormats}."
-msgstr ""
+msgstr "建议的图像分辨率是{imageResolution}，最大图像文件大小应该是{maxFileSize}，并且格式必须是{supportedImageFormats}之一。"
 
 #: cms/templates/js/xblock-access-editor.underscore:3
 msgid "Set Access"
-msgstr ""
+msgstr "设置访问"
 
 #: cms/templates/js/xblock-string-field-editor.underscore:9
 #, python-format
@@ -1427,13 +1427,13 @@ msgstr "编辑%(display_name)s(必填)"
 msgid ""
 "You have done a dry run of force publishing the course. Nothing has changed."
 " Had you run it, the following course versions would have been change."
-msgstr ""
+msgstr "您已经完成了一个强制出版课程。什么都没有改变。如果您运行它，那么下面的课程版本将会发生变化。"
 
 #: cms/templates/js/maintenance/force-published-course-response.underscore:7
 msgid ""
 "The published branch version, {published}, was reset to the draft branch "
 "version, {draft}."
-msgstr ""
+msgstr "发布的分支版本已被重新设置为分支版本，{draft}."
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:8
 msgid "Add URLs for additional versions"
