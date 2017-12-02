@@ -1130,7 +1130,7 @@ msgid ""
 "Learners do not see whether their answers to assessments were correct or "
 "incorrect, nor the score received, until after the course end date has "
 "passed."
-msgstr "学习者不看他们的评估报告答案是否正确，和收获分数，直到这个课程结束通过"
+msgstr "学习者不看他们的评估报告答案是否正确，和收获的分数，直到这个课程结束通过"
 
 #: cms/templates/js/show-correctness-editor.underscore:26
 msgid ""
