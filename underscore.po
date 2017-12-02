@@ -335,7 +335,7 @@ msgstr "对其可见"
 msgid ""
 "Discussion admins, moderators, and TAs can make their posts visible to all "
 "students or specify a single group."
-msgstr ""
+msgstr "讨论管理,版主,和助理能够使他们的帖子对于所有人或者指定一个组可见。"
 
 #: common/static/common/templates/discussion/new-post.underscore:24
 msgid "All Groups"
@@ -515,12 +515,12 @@ msgstr "添加评论"
 #: common/static/common/templates/discussion/thread-show.underscore:33
 #, python-format
 msgid "discussion posted %(time_ago)s by %(author)s"
-msgstr ""
+msgstr "%(authors)s在%(time_ago)s讨论"
 
 #: common/static/common/templates/discussion/thread-show.underscore:35
 #, python-format
 msgid "question posted %(time_ago)s by %(author)s"
-msgstr ""
+msgstr "%(authors)s在%(time_ago)s提问"
 
 #: common/static/common/templates/discussion/thread-show.underscore:48
 msgid "Closed"
@@ -1122,12 +1122,12 @@ msgstr "订单号"
 #: lms/templates/fields/field_order_history.underscore:3
 #: lms/templates/fields/field_order_history.underscore:13
 msgid "Date Placed"
-msgstr ""
+msgstr "日期地址"
 
 #: lms/templates/fields/field_order_history.underscore:4
 #: lms/templates/fields/field_order_history.underscore:14
 msgid "Cost"
-msgstr ""
+msgstr "费用"
 
 #: lms/templates/fields/field_order_history.underscore:7
 msgid "Order Details"
@@ -1135,17 +1135,17 @@ msgstr "订单细节"
 
 #: lms/templates/fields/field_order_history.underscore:7
 msgid "for"
-msgstr ""
+msgstr "为了"
 
 #: lms/templates/fields/field_order_history.underscore:12
 msgid "Product Name"
-msgstr ""
+msgstr "产品名称"
 
 #: lms/templates/fields/field_textarea.underscore:50
 msgid ""
 "{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag} of "
 "{maxCharacters}"
-msgstr ""
+msgstr "{maxCharacters}的{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag}"
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:1
 #: lms/templates/financial-assistance/financial_assessment_submitted.underscore:1
@@ -1304,7 +1304,7 @@ msgstr "从列表中删除"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-subcategory.underscore:6
 msgid "Divided"
-msgstr ""
+msgstr "分离"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:5
 msgid "Selected tab"
@@ -1312,7 +1312,7 @@ msgstr "选中的标签"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:5
 msgid "Manage Learners"
-msgstr ""
+msgstr "管理学习者"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:6
 msgid "Settings"
@@ -1320,19 +1320,19 @@ msgstr "设置"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:12
 msgid "Add learners to this cohort"
-msgstr ""
+msgstr "添加学习者到这个群体中"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:15
 msgid ""
 "Note: Learners can be in only one cohort. Adding learners to this group "
 "overrides any previous group assignment."
-msgstr ""
+msgstr "注意：学习者只能在一个群体中"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:25
 msgid ""
 "Enter email addresses and/or usernames, separated by new lines or commas, "
 "for the learners you want to add. *"
-msgstr ""
+msgstr "输入电子邮件地址和/或用户名，用新的行或逗号分开，以便你想添加的学习者。"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:26
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:25
@@ -1351,7 +1351,7 @@ msgstr "您不会收到邮件未送达的通知，因此请仔细检查以确保
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:39
 msgid "Add Learners"
-msgstr ""
+msgstr "添加学习者"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:5
 msgid "Add a New Cohort"
@@ -1473,18 +1473,18 @@ msgstr "添加群组"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:37
 msgid "Assign learners to cohorts by uploading a CSV file"
-msgstr ""
+msgstr "通过上传CSV文件将学习者分配给群组"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:44
 msgid ""
 "To review learner cohort assignments or see the results of uploading a CSV "
 "file, download course profile information or cohort results on the "
 "{link_start}Data Download{link_end} page."
-msgstr ""
+msgstr "要查看学习者的群组作业，或查看上传CSV文件的结果，下载课程概要信息或群组结果在{link_start}数据下载{link_end}页上"
 
 #: lms/templates/instructor/instructor_dashboard_2/discussions.underscore:3
 msgid "Specify whether discussion topics are divided"
-msgstr ""
+msgstr "指定讨论主题是否存在分歧"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:6
 msgid "Course-Wide Discussion Topics"
@@ -1492,7 +1492,7 @@ msgstr "全课程范围内的讨论话题"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:7
 msgid "Select the course-wide discussion topics that you want to divide."
-msgstr ""
+msgstr "选择您想要划分的范围广泛的讨论主题"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:8
 msgid "Content-Specific Discussion Topics"
@@ -1500,15 +1500,15 @@ msgstr "特定内容的讨论话题"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:9
 msgid "Specify whether content-specific discussion topics are divided."
-msgstr ""
+msgstr "指定内容特定的讨论主题是否存在分歧"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:13
 msgid "Always divide content-specific discussion topics"
-msgstr ""
+msgstr "总是要划分内容特定的讨论主题"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:19
 msgid "Divide the selected content-specific discussion topics"
-msgstr ""
+msgstr"划分选定的内容特定的讨论主题"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:27
 msgid "No content-specific discussion topics exist."
@@ -1529,11 +1529,11 @@ msgstr "有效"
 #: lms/templates/learner_dashboard/certificate_status.underscore:2
 #: lms/templates/learner_dashboard/upgrade_message.underscore:2
 msgid "Certificate Status:"
-msgstr ""
+msgstr "证书状态"
 
 #: lms/templates/learner_dashboard/certificate_status.underscore:4
 msgid "Certificate Purchased"
-msgstr ""
+msgstr "购买的证书"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:4
 msgid "View Archived Course"
@@ -1545,7 +1545,7 @@ msgstr "查看课程"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:14
 msgid "Choose a course run:"
-msgstr ""
+msgstr "选择一门课程运行"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:32
 msgid "Enroll Now"
@@ -1599,7 +1599,7 @@ msgstr "正在进行"
 
 #: lms/templates/learner_dashboard/program_card.underscore:34
 msgid "Remaining"
-msgstr ""
+msgstr "剩余的"
 
 #: lms/templates/learner_dashboard/program_card.underscore:60
 #, python-format
@@ -1608,59 +1608,59 @@ msgstr "%(programName)s主页"
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:3
 msgid "Your {program} Certificate"
-msgstr ""
+msgstr "您的{program}证书"
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:6
 #, python-format
 msgid "Open the certificate you earned for the %(title)s program."
-msgstr ""
+msgstr "打开您为%(title)项目所获得的证书。"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:5
 msgid "Congratulations!"
-msgstr ""
+msgstr "庆祝!"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:13
 msgid "Your Program Journey"
-msgstr ""
+msgstr "你的项目旅程"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:20
 msgid ""
 "To complete the program, you must earn a verified certificate for each "
 "course."
-msgstr ""
+msgstr "为了完成这个项目,您必须获得认证证书对于每个课程。"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:25
 msgid "Upgrade All Remaining Courses ("
-msgstr ""
+msgstr "升级所有剩余的课程("
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:29
 msgid "${listPrice}"
-msgstr ""
+msgstr "${listPrice}"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:35
 msgid " ${price} {currency} )"
-msgstr ""
+msgstr " ${price} {currency} )"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:46
 msgid "COURSES IN PROGRESS"
-msgstr ""
+msgstr "课程进展"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:55
 msgid "REMAINING COURSES"
-msgstr ""
+msgstr "剩余的课程"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:63
 msgid "COMPLETED COURSES"
-msgstr ""
+msgstr "完成的课程"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:70
 msgid "As you complete courses, you will see them listed here."
-msgstr ""
+msgstr "当您完成这个课程，您将会在这看到它们的列表。"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:71
 msgid ""
 "Complete courses on your schedule to ensure you stand out in your field!"
-msgstr ""
+msgstr "在您的计划表上完成课程，确保您在您的领域里脱颖而出！”"
 
 #: lms/templates/learner_dashboard/program_header_view.underscore:14
 msgid "{organization}\\'s logo"
@@ -1668,7 +1668,7 @@ msgstr "{organization}\\'s 的标识"
 
 #: lms/templates/learner_dashboard/upgrade_message.underscore:3
 msgid "Needs verified certificate "
-msgstr ""
+msgstr "需要验证证书"
 
 #: lms/templates/learner_dashboard/upgrade_message.underscore:8
 msgid "Upgrade to Verified"
@@ -1750,11 +1750,11 @@ msgstr "通过edX注册"
 
 #: lms/templates/student_account/login.underscore:6
 msgid "First time here?"
-msgstr ""
+msgstr "第一次来这里?"
 
 #: lms/templates/student_account/login.underscore:7
 msgid "Create an Account."
-msgstr ""
+msgstr "创建一个账户"
 
 #: lms/templates/student_account/login.underscore:11
 msgid "Sign In"
@@ -1804,15 +1804,15 @@ msgstr "重设我的密码"
 
 #: lms/templates/student_account/register.underscore:5
 msgid "Already have an {platformName} account?"
-msgstr ""
+msgstr "已经有一个{platformName}帐户了吗?"
 
 #: lms/templates/student_account/register.underscore:6
 msgid "Sign in."
-msgstr ""
+msgstr "登录"
 
 #: lms/templates/student_account/register.underscore:9
 msgid "Create an Account"
-msgstr ""
+msgstr "创建一个账户"
 
 #: lms/templates/student_account/register.underscore:18
 msgid "Create an account using"
@@ -2342,13 +2342,13 @@ msgstr "视图"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:44
 msgid "You have not bookmarked any courseware pages yet"
-msgstr ""
+msgstr "您还没有把任何课件页都标记出来"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:49
 msgid ""
 "Use bookmarks to help you easily return to courseware pages. To bookmark a "
 "page, click \"Bookmark this page\" under the page title."
-msgstr ""
+msgstr "使用书签帮助你轻松地回到课件页面。要对页面进行书签，请单击页面标题下面的\"Bookmark this page\"。"
 
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:2
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:3
