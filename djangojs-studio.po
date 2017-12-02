@@ -299,7 +299,7 @@ msgstr "选课截止日期应在课程结束日期之前。"
 
 #: cms/static/js/models/settings/course_details.js:66
 msgid "The certificate available date must be later than the course end date."
-msgstr ""
+msgstr "可用日期必须晚于课程结束日期"
 
 #: cms/static/js/models/settings/course_details.js:71
 msgid "Key should only contain letters, numbers, _, or -"
@@ -311,7 +311,7 @@ msgstr "请输入一个 %(min)s 到 %(max)s 之间的整数。"
 
 #: cms/static/js/models/settings/course_grader.js:27
 msgid "The assignment type must have a name."
-msgstr ""
+msgstr "这个任务类型必须有一个名称。"
 
 #: cms/static/js/models/settings/course_grader.js:33
 msgid "There's already another assignment type with this name."
@@ -365,7 +365,7 @@ msgstr "或者"
 
 #: cms/static/js/models/xblock_validation.js:23
 msgid "This unit has validation issues."
-msgstr ""
+msgstr "这个单元有验证问题。"
 
 #: cms/static/js/models/xblock_validation.js:25
 msgid "This component has validation issues."
@@ -378,19 +378,19 @@ msgstr "您的文件无法上传。"
 
 #: cms/static/js/views/active_video_upload_list.js:26
 msgid "Upload Videos"
-msgstr ""
+msgstr "上传视频"
 
 #: cms/static/js/views/active_video_upload_list.js:28
 msgid "Drag and drop or {spanStart}browse your computer{spanEnd}."
-msgstr ""
+msgstr "拖拽或{spanStart}浏览您的电脑{spanEnd}。"
 
 #: cms/static/js/views/active_video_upload_list.js:51
 msgid "Maximum file size: {maxFileSize} GB"
-msgstr ""
+msgstr "最大文件大小:{maxFileSize} GB"
 
 #: cms/static/js/views/active_video_upload_list.js:57
 msgid "Supported file types: {supportedVideoTypes}"
-msgstr ""
+msgstr "支持的文件类型:{supportedVideoTypes}"
 
 #: cms/static/js/views/active_video_upload_list.js:119
 msgid "Your video uploads are not complete."
@@ -398,7 +398,7 @@ msgstr "您的视频还没有上传完成。"
 
 #: cms/static/js/views/active_video_upload_list.js:260
 msgid "Upload completed for video {fileName}"
-msgstr ""
+msgstr "视频上传完成{fileName}"
 
 #: cms/static/js/views/active_video_upload_list.js:294
 #: cms/static/js/views/active_video_upload_list.js:318
@@ -409,19 +409,19 @@ msgstr "视频{fileName}上传失败"
 msgid ""
 "{filename} is not in a supported file format. Supported file formats are "
 "{supportedFileFormats}."
-msgstr ""
+msgstr "{filename}不是在一个受支持的文件格式中。支持文件格式{supportedFileFormats}."
 
 #: cms/static/js/views/active_video_upload_list.js:354
 msgid "{filename} exceeds maximum size of {maxFileSizeInGB} GB."
-msgstr ""
+msgstr "{filename}超过最大大小的{maxFileSizeInGB} GB."
 
 #: cms/static/js/views/active_video_upload_list.js:389
 msgid ": video upload complete."
-msgstr ""
+msgstr "视频上传完成。"
 
 #: cms/static/js/views/active_video_upload_list.js:398
 msgid "Previous Uploads table has been updated."
-msgstr ""
+msgstr "之前的上传表已经更新。"
 
 #: cms/static/js/views/asset.js:50
 msgid "Delete File Confirmation"
@@ -717,7 +717,7 @@ msgstr "发布 {display_name}"
 
 #: cms/static/js/views/modals/course_outline_modals.js:198
 msgid "Publish all unpublished changes for this {item}?"
-msgstr ""
+msgstr "发布所有未发布的更改对于这个{item}？"
 
 #: cms/static/js/views/modals/course_outline_modals.js:204
 msgid "Publish"
@@ -725,7 +725,7 @@ msgstr "发布"
 
 #: cms/static/js/views/modals/course_outline_modals.js:650
 msgid "All Learners and Staff"
-msgstr ""
+msgstr "所有的学习者和工作人员"
 
 #: cms/static/js/views/modals/course_outline_modals.js:870
 msgid "Basic"
@@ -750,15 +750,15 @@ msgstr "组件"
 
 #: cms/static/js/views/modals/move_xblock_modal.js:37
 msgid "Move"
-msgstr ""
+msgstr "移动"
 
 #: cms/static/js/views/modals/move_xblock_modal.js:38
 msgid "Choose a location to move your component to"
-msgstr ""
+msgstr "选择一个位置来移动您的组件"
 
 #: cms/static/js/views/modals/move_xblock_modal.js:66
 msgid "Move: {displayName}"
-msgstr ""
+msgstr "移动:{displayName}"
 
 #: cms/static/js/views/modals/validation_error_modal.js:16
 msgid "Validation Error While Saving"
@@ -778,7 +778,7 @@ msgstr "章节"
 
 #: cms/static/js/views/move_xblock_list.js:34
 msgid "Subsections"
-msgstr ""
+msgstr "分段"
 
 #: cms/static/js/views/move_xblock_list.js:35
 msgid "Units"
@@ -786,7 +786,7 @@ msgstr "单元"
 
 #: cms/static/js/views/move_xblock_list.js:36
 msgid "Components"
-msgstr ""
+msgstr "组件"
 
 #: cms/static/js/views/move_xblock_list.js:37
 msgid "Groups"
@@ -794,7 +794,7 @@ msgstr "组"
 
 #: cms/static/js/views/move_xblock_list.js:179
 msgid "This {parentCategory} has no {childCategory}"
-msgstr ""
+msgstr "这个{parentCategory}没有{childCategory}"
 
 #: cms/static/js/views/move_xblock_list.js:196
 msgid "Course Outline"
@@ -808,7 +808,7 @@ msgstr "添加日期"
 #. edited.
 #: cms/static/js/views/pages/container.js:200
 msgid "Editing access for: %(title)s"
-msgstr ""
+msgstr "编辑访问:%(title)s"
 
 #: cms/static/js/views/pages/container_subviews.js:165
 msgid "Publishing"
@@ -930,13 +930,13 @@ msgstr "您还没有创建任何内容组。"
 
 #: cms/static/js/views/previous_video_upload.js:58
 msgid "Are you sure you want to remove this video from the list?"
-msgstr ""
+msgstr "您确定您想把这个视频从列表中删除吗?"
 
 #: cms/static/js/views/previous_video_upload.js:59
 msgid ""
 "Removing a video from this list does not affect course content. Any content "
 "that uses a previously uploaded video ID continues to display in the course."
-msgstr ""
+msgstr "从这个列表中删除一个视频不会影响课程内容。任何使用先前上传的视频ID的内容将继续在课程中显示。"
 
 #: cms/static/js/views/settings/advanced.js:68
 msgid ""
@@ -1028,21 +1028,21 @@ msgstr "机构和知识库编号字段合在一起不能超过 <%=limit%> 个字
 
 #: cms/static/js/views/utils/move_xblock_utils.js:31
 msgid "Success! \"{displayName}\" has been moved."
-msgstr ""
+msgstr "成功！ \"{displayName}\"已被成功移动。"
 
 #: cms/static/js/views/utils/move_xblock_utils.js:56
 msgid ""
 "Move cancelled. \"{sourceDisplayName}\" has been moved back to its original "
 "location."
-msgstr ""
+msgstr "移动取消。\"{sourceDisplayName}\"已经被移回原来的地方。"
 
 #: cms/static/js/views/utils/move_xblock_utils.js:74
 msgid "Undo move"
-msgstr ""
+msgstr "撤销移动"
 
 #: cms/static/js/views/utils/move_xblock_utils.js:90
 msgid "Take me to the new location"
-msgstr ""
+msgstr "带我去新的地方"
 
 #: cms/static/js/views/utils/xblock_utils.js:79
 msgid "Duplicating"
@@ -1050,15 +1050,15 @@ msgstr "正在复制"
 
 #: cms/static/js/views/utils/xblock_utils.js:106
 msgid "Undo moving"
-msgstr ""
+msgstr "撤销移动"
 
 #: cms/static/js/views/utils/xblock_utils.js:106
 msgid "Moving"
-msgstr ""
+msgstr "移动"
 
 #: cms/static/js/views/utils/xblock_utils.js:147
 msgid "Deleting this {xblock_type} is permanent and cannot be undone."
-msgstr ""
+msgstr "删除这个{xblock_type}是永久的并且不可撤销。"
 
 #: cms/static/js/views/utils/xblock_utils.js:153
 msgid ""
@@ -1068,16 +1068,16 @@ msgstr "如果有其他内容将此内容设置为先修内容，则它们的访
 
 #: cms/static/js/views/utils/xblock_utils.js:156
 msgid "Delete this {xblock_type} (and prerequisite)?"
-msgstr ""
+msgstr "删除这个{xblock_type} (and prerequisite)?"
 
 #: cms/static/js/views/utils/xblock_utils.js:162
 #: cms/static/js/views/utils/xblock_utils.js:177
 msgid "Yes, delete this {xblock_type}"
-msgstr ""
+msgstr "是的，删除这个 {xblock_type}"
 
 #: cms/static/js/views/utils/xblock_utils.js:171
 msgid "Delete this {xblock_type}?"
-msgstr ""
+msgstr "消除这个 {xblock_type}?"
 
 #: cms/static/js/views/utils/xblock_utils.js:263
 msgid "section"
@@ -1165,76 +1165,76 @@ msgstr "上传译文"
 
 #: cms/static/js/views/video_thumbnail.js:31
 msgid "Add Thumbnail"
-msgstr ""
+msgstr "添加缩略图"
 
 #: cms/static/js/views/video_thumbnail.js:35
 msgid "Edit Thumbnail"
-msgstr ""
+msgstr "编辑缩略图"
 
 #. Translators: This is a 2 part text which tells the image requirements.
 #: cms/static/js/views/video_thumbnail.js:39
 msgid ""
 "{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
 "{videoImageSupportedFileFormats}{spanEnd}"
-msgstr ""
+msgstr "{InstructionsSpanStart}{videoImageResoultion}{lineBreak}{videoImageSupportedFileFormats}{spanEnd}"
 
 #: cms/static/js/views/video_thumbnail.js:52
 msgid "Image upload failed"
-msgstr ""
+msgstr "上传图像失败"
 
 #. Translators: This is a 3 part text which tells the image requirements.
 #: cms/static/js/views/video_thumbnail.js:64
 msgid ""
 "{ReqTextSpanStart}Requirements{spanEnd}{lineBreak}{InstructionsSpanStart}{videoImageResoultion}{lineBreak}"
 " {videoImageSupportedFileFormats}{spanEnd}"
-msgstr ""
+msgstr "{ReqTextSpanStart}Requirements{spanEnd}{lineBreak}{InstructionsSpanStart}{videoImageResoultion}{lineBreak}{videoImageSupportedFileFormats}{spanEnd}"
 
 #. Translators: message will be like 1280x720 pixels
 #: cms/static/js/views/video_thumbnail.js:130
 msgid "{maxWidth}x{maxHeight} pixels"
-msgstr ""
+msgstr "{maxWidth}x{maxHeight}像素"
 
 #. Translators: message will be like Thumbnail for Arrow.mp4
 #: cms/static/js/views/video_thumbnail.js:138
 msgid "Thumbnail for {videoName}"
-msgstr ""
+msgstr "{videoName}的缩略图"
 
 #. Translators: message will be like Add Thumbnail - Arrow.mp4
 #: cms/static/js/views/video_thumbnail.js:146
 msgid "Add Thumbnail - {videoName}"
-msgstr ""
+msgstr "添加缩略图-{videoName}"
 
 #. Translators: humanizeDuration will be like 10 minutes, an hour and 20
 #. minutes etc
 #: cms/static/js/views/video_thumbnail.js:172
 msgid "Video duration is {humanizeDuration}"
-msgstr ""
+msgstr "视频时间{humanizeDuration}"
 
 #: cms/static/js/views/video_thumbnail.js:189
 msgid "minutes"
-msgstr ""
+msgstr "多分钟"
 
 #: cms/static/js/views/video_thumbnail.js:189
 msgid "minute"
-msgstr ""
+msgstr "分"
 
 #. Translators: message will be like 15 minutes, 1 minute
 #: cms/static/js/views/video_thumbnail.js:192
 msgid "{minutes} {unit}"
-msgstr ""
+msgstr "{minutes} {unit}"
 
 #: cms/static/js/views/video_thumbnail.js:198
 msgid "seconds"
-msgstr ""
+msgstr "数秒"
 
 #: cms/static/js/views/video_thumbnail.js:198
 msgid "second"
-msgstr ""
+msgstr "秒"
 
 #. Translators: message will be like 20 seconds, 1 second
 #: cms/static/js/views/video_thumbnail.js:201
 msgid "{seconds} {unit}"
-msgstr ""
+msgstr "{seconds} {unit}"
 
 #. Translators: `and` will be used to combine both miuntes and seconds like
 #. `13 minutes and 45 seconds`
@@ -1244,35 +1244,35 @@ msgstr "与"
 
 #: cms/static/js/views/video_thumbnail.js:234
 msgid "Video image upload started"
-msgstr ""
+msgstr "视频图像上传开始"
 
 #: cms/static/js/views/video_thumbnail.js:246
 msgid "Video image upload completed"
-msgstr ""
+msgstr "视频图像上传完成"
 
 #: cms/static/js/views/video_thumbnail.js:321
 msgid ""
 "This image file type is not supported. Supported file types are "
 "{supportedFileFormats}."
-msgstr ""
+msgstr "此映像文件类型不受支持。支持的文件类型{supportedFileFormats}."
 
 #. Translators: maxFileSizeInMB will be like 2 MB.
 #: cms/static/js/views/video_thumbnail.js:330
 msgid "The selected image must be smaller than {maxFileSizeInMB}."
-msgstr ""
+msgstr "所选图像必须小于{maxFileSizeInMB}."
 
 #. Translators: minFileSizeInKB will be like 2 KB.
 #: cms/static/js/views/video_thumbnail.js:338
 msgid "The selected image must be larger than {minFileSizeInKB}."
-msgstr ""
+msgstr "选定的图像必须大于{minFileSizeInKB}."
 
 #: cms/static/js/views/video_thumbnail.js:366
 msgid "Could not upload the video image file"
-msgstr ""
+msgstr "无法上传视频图像文件"
 
 #: cms/static/js/views/video_thumbnail.js:368
 msgid "Image upload failed. "
-msgstr ""
+msgstr "上传影像失败"
 
 #: cms/static/js/views/xblock_editor.js:42
 msgid "Editor"
@@ -1284,7 +1284,7 @@ msgstr "设置"
 
 #: cms/static/js/views/xblock_outline.js:91
 msgid "New {component_type}"
-msgstr ""
+msgstr "新的{component_type}"
 
 #. Translators: This message will be added to the front of messages of type
 #. warning,
