@@ -163,7 +163,7 @@ msgstr "选择文件"
 #: common/static/bundles/Import.js:129
 msgid ""
 "File format not supported. Please upload a file with a {ext} extension."
-msgstr ""
+msgstr "文件格式不支持。请上传一个带有{ext}扩展名的文件。"
 
 #: cms/static/js/features/import/factories/import.js:54
 #: common/static/bundles/Import.js:136
@@ -311,19 +311,19 @@ msgstr "正在创建缺失的组。"
 
 #: common/lib/xmodule/xmodule/assets/word_cloud/public/js/word_cloud_main.js:264
 msgid "{start_strong}{total}{end_strong} words submitted in total."
-msgstr ""
+msgstr "{start_strong}{total}{end_strong}"
 
 #: common/lib/xmodule/xmodule/assets/word_cloud/public/js/word_cloud_main.js:291
 msgid "text_word_{uniqueId} title_word_{uniqueId}"
-msgstr ""
+msgstr "text_word_{uniqueId} title_word_{uniqueId}"
 
 #: common/lib/xmodule/xmodule/assets/word_cloud/public/js/word_cloud_main.js:302
 msgid "title_word_{uniqueId}"
-msgstr ""
+msgstr "title_word_{uniqueId}"
 
 #: common/lib/xmodule/xmodule/assets/word_cloud/public/js/word_cloud_main.js:326
 msgid "text_word_{uniqueId}"
-msgstr ""
+msgstr "text_word_{uniqueId}"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js:223
 msgid "Show Annotations"
@@ -401,14 +401,13 @@ msgstr "评分过程仍在进行，请刷新页面查看更新。"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:452
 msgid "Could not grade your answer. The submission was aborted."
-msgstr ""
+msgstr "不能给您的答案打分。提交被中止。"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:516
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
-"you can, please use Chrome or Safari which have been verified to support "
-"file uploads."
-msgstr ""
+"you can, please use Chrome or Safari which have been verified to support file uploads."
+msgstr "提交失败! 对不起，您的浏览器不支持文件上传。如果可以的话，请使用已经被证实支持文件上传的Chrome或Safari"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:542
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
@@ -416,11 +415,11 @@ msgstr "您提交了 {filename}；仅支持提交 {allowedFiles} 格式的文件
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:555
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
-msgstr ""
+msgstr "您的文件 {filename}太大(最大容量: {maxSize}MB)."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:570
 msgid "You did not submit the required files: {requiredFiles}."
-msgstr ""
+msgstr "您没有提交所需的文件:{requiredFiles}."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:580
 msgid "You did not select any files to submit."
@@ -438,7 +437,7 @@ msgstr "此问题已重置。"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:996
 msgid "unsubmitted"
-msgstr ""
+msgstr "未提交"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1798,7 +1797,7 @@ msgstr "开启"
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:16
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:107
 msgid "Video position. Press space to toggle playback"
-msgstr ""
+msgstr "视频的位置。按下空格键来切换播放"
 
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:302
 msgid "Video ended"
@@ -1938,11 +1937,11 @@ msgstr "您的请求无法完成。重新加载页面并重试。如果问题仍
 
 #: common/static/common/js/components/views/paging_header.js:37
 msgid "Showing {firstIndex} out of {numItems} total"
-msgstr ""
+msgstr "从{numItems}中显示{firstIndex}"
 
 #: common/static/common/js/components/views/paging_header.js:42
 msgid "Showing {firstIndex}-{lastIndex} out of {numItems} total"
-msgstr ""
+msgstr "从{numItems}总数中显示{firstIndex}-{lastIndex}"
 
 #: common/static/common/js/discussion/utils.js:142
 msgid "Loading content"
@@ -1950,7 +1949,7 @@ msgstr "正在加载内容"
 
 #: common/static/common/js/discussion/utils.js:199
 msgid "Your request could not be processed. Refresh the page and try again."
-msgstr ""
+msgstr "您的请求不能被处理。刷新页面并再次尝试"
 
 #: common/static/common/js/discussion/utils.js:469
 #: common/static/common/js/discussion/utils.js:493
@@ -1959,84 +1958,84 @@ msgstr "…"
 
 #: common/static/common/js/discussion/utils.js:506
 msgid "Some images in this post have been omitted"
-msgstr ""
+msgstr "这篇文章中的一些图片被省略了。"
 
 #: common/static/common/js/discussion/utils.js:512
 msgid "image omitted"
-msgstr ""
+msgstr "图象省略"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:280
 msgid "there is currently {numVotes} vote"
 msgid_plural "there are currently {numVotes} votes"
-msgstr[0] ""
+msgstr[0] "目前 {numVotes}投票"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:286
 msgid "{numVotes} Vote"
 msgid_plural "{numVotes} Votes"
-msgstr[0] ""
+msgstr[0] "{numVotes} Vote"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:354
 msgid ""
 "You could not be subscribed to this post. Refresh the page and try again."
-msgstr ""
+msgstr "您不能订阅这篇文章。刷新页面并再次尝试"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:356
 msgid ""
 "You could not be unsubscribed from this post. Refresh the page and try "
 "again."
-msgstr ""
+msgstr "您不能从这篇文章中获得订阅。刷新页面并再次尝试"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:383
 msgid ""
 "This response could not be marked as an answer. Refresh the page and try "
 "again."
-msgstr ""
+msgstr "这个回应不能被当作一个答案。刷新页面并再次尝试"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:385
 msgid ""
 "This response could not be unmarked as an answer. Refresh the page and try "
 "again."
-msgstr ""
+msgstr "这个反应不能作为一个答案来标记。刷新页面并再次尝试"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:389
 msgid ""
 "This response could not be marked as endorsed. Refresh the page and try "
 "again."
-msgstr ""
+msgstr "这种回应不能被标记为赞同。刷新页面并再次尝试"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:391
 msgid "This response could not be unendorsed. Refresh the page and try again."
-msgstr ""
+msgstr "这种回应是不能被取消的。刷新页面并再次尝试"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:423
 msgid "This vote could not be processed. Refresh the page and try again."
-msgstr ""
+msgstr "这次投票不能被处理。刷新页面并再次尝试"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:439
 msgid "This post could not be pinned. Refresh the page and try again."
-msgstr ""
+msgstr "这篇文章不能被钉住。刷新页面并再次尝试。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:441
 msgid "This post could not be unpinned. Refresh the page and try again."
-msgstr ""
+msgstr "这篇文章不能被解析。刷新页面并再次尝试。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:457
 msgid ""
 "This post could not be flagged for abuse. Refresh the page and try again."
-msgstr ""
+msgstr "这篇文章不能被标记为滥用。刷新页面并再次尝试。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:460
 msgid ""
 "This post could not be unflagged for abuse. Refresh the page and try again."
-msgstr ""
+msgstr "这篇文章不能因为滥用而被标记出来。刷新页面并再次尝试。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:480
 msgid "This post could not be closed. Refresh the page and try again."
-msgstr ""
+msgstr "这篇文章不可能被关闭。刷新页面并再次尝试。"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:482
 msgid "This post could not be reopened. Refresh the page and try again."
-msgstr ""
+msgstr "这篇文章不能重新开放。刷新页面并再次尝试。"
 
 #: common/static/common/js/discussion/views/discussion_inline_view.js:190
 #: common/static/common/js/discussion/views/discussion_inline_view.js:228
@@ -2045,7 +2044,7 @@ msgstr "隐藏讨论"
 
 #: common/static/common/js/discussion/views/discussion_inline_view.js:199
 msgid "This discussion could not be loaded. Refresh the page and try again."
-msgstr ""
+msgstr "这个讨论不能被载入。刷新页面并再次尝试。"
 
 #: common/static/common/js/discussion/views/discussion_inline_view.js:210
 msgid "Show Discussion"
@@ -2057,7 +2056,7 @@ msgstr "载入更多的主题"
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:321
 msgid "Additional posts could not be loaded. Refresh the page and try again."
-msgstr ""
+msgstr "额外的帖子不能被加载。刷新页面并再次尝试。"
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:382
 msgid "Current conversation"
@@ -2065,34 +2064,34 @@ msgstr "当前对话"
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:498
 msgid "Loading posts list"
-msgstr ""
+msgstr "加载文章列表"
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:516
 msgid ""
 "No results found for {original_query}. Showing results for "
 "{suggested_query}."
-msgstr ""
+msgstr "没有发现{original_query}结果。显示结果{suggested_query}。"
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:535
 msgid "No posts matched your query."
-msgstr ""
+msgstr "没有贴子匹配您的查询。"
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:570
 msgid "Show posts by {username}."
-msgstr ""
+msgstr "显示文章的{username}。"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:218
 msgid "The post you selected has been deleted."
-msgstr ""
+msgstr "您选择的帖子已经被删除了。"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:223
 msgid "Responses could not be loaded. Refresh the page and try again."
-msgstr ""
+msgstr "无法加载响应。刷新页面并再次尝试"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:228
 msgid ""
 "Additional responses could not be loaded. Refresh the page and try again."
-msgstr ""
+msgstr "无法加载另外的响应。刷新页面并再次尝试。"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:244
 msgid "{numResponses} other response"
@@ -2119,7 +2118,7 @@ msgstr "载入所有的回复"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:284
 msgid "Load next {numResponses} responses"
-msgstr ""
+msgstr "加载下一个{ numResponses }回应"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:449
 msgid "Are you sure you want to delete this post?"
@@ -2139,7 +2138,7 @@ msgstr "您确定要删除这条评论吗？"
 
 #: common/static/common/js/discussion/views/response_comment_view.js:120
 msgid "This comment could not be deleted. Refresh the page and try again."
-msgstr ""
+msgstr "这条评论不能被删除。刷新页面并再次尝试。"
 
 #: common/static/common/js/discussion/views/thread_response_view.js:229
 msgid "Are you sure you want to delete this response?"
@@ -2642,7 +2641,7 @@ msgstr "搜索团队"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:219
 msgid "Showing results for \"{searchString}\""
-msgstr ""
+msgstr "显示的结果\"{searchString}\""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:238
 msgid "Create a New Team"
@@ -2684,15 +2683,15 @@ msgstr "所有主题"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:588
 msgid "The page \"{route}\" could not be found."
-msgstr ""
+msgstr "这一页\"{route}\"是找不到的。”"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:597
 msgid "The topic \"{topic}\" could not be found."
-msgstr ""
+msgstr "这个主题 \"{topic}\" 是找不到的。"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:606
 msgid "The team \"{team}\" could not be found."
-msgstr ""
+msgstr "：这个团队\"{team}\"是找不到的。"
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js:19
 msgid "%(team_count)s Team"
@@ -2737,7 +2736,7 @@ msgstr "关闭计算器"
 
 #: lms/static/coffee/src/customwmd.js:157
 msgid "HTML preview of post"
-msgstr ""
+msgstr "HTML预览"
 
 #: lms/static/coffee/src/customwmd.js:158
 msgid "Post body"
@@ -2898,7 +2897,7 @@ msgid ""
 "You have been logged out of your edX account. Click Okay to log in again "
 "now. Click Cancel to stay on this page (you must log in again to save your "
 "work)."
-msgstr ""
+msgstr "您已经注销了您的edX帐户。现在单击ok再次登录。单击Cancel停留在这个页面上(您必须再次登录以保存您的工作)"
 
 #: lms/static/js/api_admin/views/catalog_preview.js:24
 msgid "Preview this query"
@@ -2966,15 +2965,15 @@ msgstr "学习者已经成功地加入到例外列表"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:164
 msgid " records are not in correct format and not added to the exception list"
-msgstr ""
+msgstr "记录没有正确的格式，也没有添加到异常列表中"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:166
 msgid " record is not in correct format and not added to the exception list"
-msgstr ""
+msgstr "记录没有正确的格式，也没有添加到异常列表中"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:171
 msgid " learners do not exist in LMS and not added to the exception list"
-msgstr ""
+msgstr "学习者不存在于LMS中，也不添加到异常列表中"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:173
 msgid " learner does not exist in LMS and not added to the exception list"
@@ -2982,20 +2981,20 @@ msgstr "学习者不存在系统中，将不加到例外列表中"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:177
 msgid " learners are already white listed and not added to the exception list"
-msgstr ""
+msgstr "学习者已经列出了白名单，并且没有添加到异常列表中"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:179
 msgid " learner is already white listed and not added to the exception list"
-msgstr ""
+msgstr "学习者已经列出了白名单，并且没有添加到异常列表中"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:184
 msgid ""
 " learners are not enrolled in course and not added to the exception list"
-msgstr ""
+msgstr "学习者没有参加课程，也没有被列入例外名单"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:186
 msgid " learner is not enrolled in course and not added to the exception list"
-msgstr ""
+msgstr "学习者不会被列入课程，也不会被添加到例外列表中"
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:49
 msgid ""
@@ -3074,37 +3073,37 @@ msgstr "你将无法获得全额退款。"
 msgid ""
 "Are you sure you want to unenroll from the purchased course %(courseName)s "
 "(%(courseNumber)s)?"
-msgstr ""
+msgstr "您确定您想从购买的课程%(courseName)s(%(courseNumber)s)?中取消选课吗"
 
 #: lms/static/js/dashboard/legacy.js:95
 msgid ""
 "Are you sure you want to unenroll from %(courseName)s (%(courseNumber)s)?"
-msgstr ""
+msgstr "您确定您想要取消选课从 %(courseName)s (%(courseNumber)s)?"
 
 #: lms/static/js/dashboard/legacy.js:98
 msgid ""
 "Are you sure you want to unenroll from the verified %(certNameLong)s  track "
 "of %(courseName)s  (%(courseNumber)s)?"
-msgstr ""
+msgstr "您确定你想要从经过验证的%(certNameLong)s的路径上 %(courseName)s  (%(courseNumber)s)?"
 
 #: lms/static/js/dashboard/legacy.js:102
 msgid ""
 "Are you sure you want to unenroll from the verified %(certNameLong)s track "
 "of %(courseName)s (%(courseNumber)s)?"
-msgstr ""
+msgstr "确定您想要从经过验证的 %(certNameLong)s的路径上%(courseName)s (%(courseNumber)s)?"
 
 #: lms/static/js/dashboard/legacy.js:104
 msgid ""
 "The refund deadline for this course has passed,so you will not receive a "
 "refund."
-msgstr ""
+msgstr "本课程的退款期限已经过去，所以您将不会收到退款。"
 
 #: lms/static/js/dashboard/legacy.js:171 lms/static/js/dashboard/legacy.js:181
 #: lms/static/js/learner_dashboard/views/unenroll_view.js:61
 msgid ""
 "Unable to determine whether we should give you a refund because of System "
 "Error. Please try again later."
-msgstr ""
+msgstr "由于系统错误，无法决定是否给您退款。请稍后再试。"
 
 #: lms/static/js/discovery/views/search_form.js:48
 #, javascript-format
@@ -3123,13 +3122,13 @@ msgstr "出错了，请尝试重新搜素。"
 
 #: lms/static/js/discussions_management/views/discussions.js:59
 msgid "Not divided"
-msgstr ""
+msgstr "没有划分"
 
 #: lms/static/js/discussions_management/views/discussions.js:60
 msgid ""
 "Discussions are unified; all learners interact with posts from other "
 "learners, regardless of the group they are in."
-msgstr ""
+msgstr "讨论是统一的;所有学习者与其他学习者的帖子互动，不管他们所在的群组是什么。"
 
 #: lms/static/js/discussions_management/views/discussions.js:66
 msgid "Enrollment Tracks"
@@ -3141,7 +3140,7 @@ msgid ""
 "regardless of their enrollment track, see the same discussion topics, but "
 "within divided topics, only learners who are in the same enrollment track "
 "see and respond to each others’ posts."
-msgstr ""
+msgstr "使用选课路径作为划分讨论的基础。所有的学习者，不管他们的注册情况如何，都能看到相同的讨论话题，但是在不同的话题中，只有在同一注册的学习者能够看到并对彼此的帖子作出回应。”"
 
 #: lms/static/js/discussions_management/views/discussions.js:73
 msgid "Cohorts"
@@ -3152,27 +3151,27 @@ msgid ""
 "Use cohorts as the basis for dividing discussions. All learners, regardless "
 "of cohort, see the same discussion topics, but within divided topics, only "
 "members of the same cohort see and respond to each others’ posts. "
-msgstr ""
+msgstr "使用群组作为划分讨论的基础。所有的学习者，不论群体，都看到相同的讨论话题，但在不同的话题中，只有同一群体的成员看到并对彼此的帖子作出回应。"
 
 #: lms/static/js/discussions_management/views/discussions.js:181
 msgid "Discussion topics in the course are not divided."
-msgstr ""
+msgstr "课程中讨论的主题没有分歧。"
 
 #: lms/static/js/discussions_management/views/discussions.js:184
 msgid "Any divided discussion topics are divided based on enrollment track."
-msgstr ""
+msgstr "任何分歧的讨论话题都是根据登记的情况来划分的。"
 
 #: lms/static/js/discussions_management/views/discussions.js:187
 msgid "Any divided discussion topics are divided based on cohort."
-msgstr ""
+msgstr "任何分歧的讨论话题都是基于群组的。"
 
 #: lms/static/js/discussions_management/views/discussions.js:194
 msgid "Your changes have been saved. {details}"
-msgstr ""
+msgstr "您的改变已经被保存了。{details}"
 
 #: lms/static/js/discussions_management/views/discussions.js:209
 msgid "We have encountered an error. Refresh your browser and then try again."
-msgstr ""
+msgstr "我们遇到了一个错误。刷新您的浏览器，然后再试一次。"
 
 #: lms/static/js/discussions_management/views/divided_discussions.js:62
 #: lms/static/js/discussions_management/views/divided_discussions_course_wide.js:79
@@ -3207,7 +3206,7 @@ msgstr "注释已隐藏"
 
 #: lms/static/js/edxnotes/views/search_box.js:20
 msgid "Please enter a term in the {anchorStart} search field{anchorEnd}."
-msgstr ""
+msgstr "请输入一个词{anchorStart}检索字段{anchorEnd}."
 
 #: lms/static/js/edxnotes/views/tab_item.js:25
 msgid "Current tab"
@@ -3260,7 +3259,7 @@ msgstr "已保存的群组"
 
 #: lms/static/js/groups/views/cohort_editor.js:119
 msgid "Error adding learners."
-msgstr ""
+msgstr "错误添加学习者。"
 
 #: lms/static/js/groups/views/cohort_editor.js:122
 msgid "Enter a username or email."
@@ -3283,7 +3282,7 @@ msgstr[0] ""
 
 #: lms/static/js/groups/views/cohort_editor.js:230
 msgid "{email}"
-msgstr ""
+msgstr "{email}"
 
 #: lms/static/js/groups/views/cohort_editor.js:236
 msgid ""
@@ -3292,15 +3291,15 @@ msgid ""
 msgid_plural ""
 "{numPreassigned} learners were pre-assigned for this cohort. These learners "
 "will automatically be added to the cohort when they enroll in the course."
-msgstr[0] ""
+msgstr[0] "{numPreassigned}这一组的学生是预先分配的。当他们报名参加课程时，这名学习者将自动被加入到他们的队伍中。"
 
 #: lms/static/js/groups/views/cohort_editor.js:274
 msgid "Unknown username: {user}"
-msgstr ""
+msgstr "未知的用户名:{user}"
 
 #: lms/static/js/groups/views/cohort_editor.js:278
 msgid "Invalid email address: {email}"
-msgstr ""
+msgstr "无效的电子邮件地址{email}"
 
 #: lms/static/js/groups/views/cohort_editor.js:285
 msgid "There was an error when trying to add learners:"
@@ -3511,7 +3510,7 @@ msgstr "取消授权"
 
 #: lms/static/js/instructor_dashboard/membership.js:116
 msgid "Group"
-msgstr ""
+msgstr "组"
 
 #: lms/static/js/instructor_dashboard/membership.js:122
 msgid "Enter username or email"
@@ -3524,7 +3523,7 @@ msgstr "请输入一个用户名或者电子邮件。"
 #: lms/static/js/instructor_dashboard/membership.js:197
 #: lms/static/js/instructor_dashboard/membership.js:1026
 msgid "This role requires a divided discussions scheme."
-msgstr ""
+msgstr "这个角色需要一个有分歧的讨论方案。"
 
 #: lms/static/js/instructor_dashboard/membership.js:261
 #: lms/static/js/instructor_dashboard/membership.js:961
@@ -3534,13 +3533,13 @@ msgstr "更改用户权限出错。"
 #: lms/static/js/instructor_dashboard/membership.js:271
 msgid ""
 "Could not find a user with username or email address '<%- identifier %>'."
-msgstr ""
+msgstr "无法找到用户名或电子邮件地址的用户'<%- identifier %>'。"
 
 #: lms/static/js/instructor_dashboard/membership.js:276
 msgid ""
 "Error: User '<%- username %>' has not yet activated their account. Users "
 "must create and activate their accounts before they can be assigned a role."
-msgstr ""
+msgstr "错误:用户的'<%- username %>'还没有激活他们的帐户。用户必须创建并激活他们的帐户，然后才能被分配角色。"
 
 #: lms/static/js/instructor_dashboard/membership.js:282
 msgid "Error: You cannot remove yourself from the Instructor group!"
@@ -3584,7 +3583,7 @@ msgstr "这些用户已经添加为beta测试者："
 msgid ""
 "These users could not be added as beta testers because their accounts are "
 "not yet activated:"
-msgstr ""
+msgstr "这些用户不能被添加为beta测试者，因为他们的账户还没有被激活:"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:538
@@ -3683,13 +3682,13 @@ msgstr "您的消息不能为空。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:72
 msgid "Your message must have at least one target."
-msgstr ""
+msgstr "您的消息必须至少有一个目标。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:77
 msgid ""
 "There are invalid keywords in your email. Check the following keywords and "
 "try again."
-msgstr ""
+msgstr "在您的电子邮件中有无效的关键词。检查下列关键字并再次尝试。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:84
 msgid "Yourself"
@@ -3697,32 +3696,32 @@ msgstr "自己"
 
 #: lms/static/js/instructor_dashboard/send_email.js:86
 msgid "Everyone who has staff privileges in this course"
-msgstr ""
+msgstr "在这门课上有员工特权的人"
 
 #: lms/static/js/instructor_dashboard/send_email.js:88
 msgid "All learners who are enrolled in this course"
-msgstr ""
+msgstr "所有参加这门课程的学生"
 
 #: lms/static/js/instructor_dashboard/send_email.js:90
 msgid "All learners in the {cohort_name} cohort"
-msgstr ""
+msgstr "所有的学习者都在{cohort_name}群中"
 
 #: lms/static/js/instructor_dashboard/send_email.js:93
 msgid "All learners in the {track_name} track"
-msgstr ""
+msgstr "所有在{track_name}路径中学习的人"
 
 #: lms/static/js/instructor_dashboard/send_email.js:97
 msgid ""
 "Your email message was successfully queued for sending. In courses with a "
 "large number of learners, email messages to learners might take up to an "
 "hour to be sent."
-msgstr ""
+msgstr "您的电子邮件消息成功地排队等待发送。在有大量学习者的课程中，向学习者发送电子邮件可能需要花费一个小时的时间。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:99
 msgid ""
 "You are sending an email message with the subject {subject} to the following"
 " recipients."
-msgstr ""
+msgstr "您正在发送一个电子邮件消息，{subject}主题为以下收件人。"
 
 #: lms/static/js/instructor_dashboard/send_email.js:104
 msgid "Is this OK?"
@@ -3765,7 +3764,7 @@ msgstr "请输入学生的邮件地址或用户名。"
 msgid ""
 "Error getting student progress url for '<%- student_id %>'. Make sure that "
 "the student identifier is spelled correctly."
-msgstr ""
+msgstr "在 '<%- student_id %>'的情况下，获得学生进度url的错误。确保学生标识符拼写正确。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:112
 #: lms/static/js/instructor_dashboard/student_admin.js:154
@@ -3789,19 +3788,18 @@ msgid ""
 "Error resetting problem attempts for problem '<%= problem_id %>' and student"
 " '<%- student_id %>'. Make sure that the problem and student identifiers are"
 " complete and correct."
-msgstr ""
+msgstr "错误重置问题的问题'<%= problem_id %>'和学生'<%- student_id %>'。确保问题和学生标识符是完整和正确的。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:157
 msgid ""
 "Delete student '<%- student_id %>'s state on problem '<%- problem_id %>'?"
-msgstr ""
+msgstr "删除学生'<%- student_id %>'s的状态问题'<%- problem_id %>'吗?"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:168
 msgid ""
 "Error deleting student '<%- student_id %>'s state on problem '<%- problem_id"
-" %>'. Make sure that the problem and student identifiers are complete and "
-"correct."
-msgstr ""
+" %>'. Make sure that the problem and student identifiers are complete and correct."
+msgstr "错误删除学生的'<%- student_id %>'s的状态在问题'<%- problem_id %>'上。确保问题和学生标识符是完整和正确的。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:179
 msgid "Module state successfully deleted."
@@ -3812,7 +3810,7 @@ msgid ""
 "Error getting task history for problem '<%- problem_id %>' and student '<%- "
 "student_id %>'. Make sure that the problem and student identifiers are "
 "complete and correct."
-msgstr ""
+msgstr "错误获取任务历史的问题'<%- problem_id %>'和学生'<%-student_id %>'。确保问题和学生标识符是完整和正确的。”"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:250
 msgid "Entrance exam attempts is being reset for student '{student_id}'."
@@ -3865,14 +3863,14 @@ msgstr "要重置所有学生针对'<%- problem_id %>'题目的尝试次数吗�
 msgid ""
 "Successfully started task to reset attempts for problem '<%- problem_id %>'."
 " Click the 'Show Task Status' button to see the status of the task."
-msgstr ""
+msgstr "成功地启动了重新设置问题'<%- problem_id %>'的尝试。单击“Show Task Status”按钮查看任务的状态。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:389
 msgid ""
 "Error starting a task to reset attempts for all students on problem '<%- "
 "problem_id %>'. Make sure that the problem identifier is complete and "
 "correct."
-msgstr ""
+msgstr "错误启动一项任务，重新设置所有学生的问题'<%-problem_id %>'。确保问题标识符是完整和正确的。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:438
 msgid "Error listing task history for this student and problem."
@@ -3883,38 +3881,38 @@ msgid ""
 "Started rescore problem task for problem '<%- problem_id %>' and student "
 "'<%- student_id %>'. Click the 'Show Task Status' button to see the status "
 "of the task."
-msgstr ""
+msgstr "启动了'<%- problem_id %>'和学生的“%-%”的重置问题的任务。单击“Show Task Status”按钮查看任务的状态。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:471
 msgid ""
 "Error starting a task to rescore problem '<%- problem_id %>' for student "
 "'<%- student_id %>'. Make sure that the the problem and student identifiers "
 "are complete and correct."
-msgstr ""
+msgstr "错误启动一个任务去重置问题 '<%- problem_id %>'对学生的'<%- student_id %>'。确保问题和学生标识符是完整和正确的。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:512
 msgid "Please enter a score."
-msgstr ""
+msgstr "请输入一个分数。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:520
 msgid ""
 "Started task to override the score for problem '<%- problem_id %>' and "
 "student '<%- student_id %>'. Click the 'Show Task Status' button to see the "
 "status of the task."
-msgstr ""
+msgstr "开始的任务去覆盖问题'<%- problem_id %>'的分数，学生的'<%- student_id %>'。单击“Show Task Status”按钮查看任务的状态。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:525
 msgid ""
 "Error starting a task to override score for problem '<%- problem_id %>' for "
 "student '<%- student_id %>'. Make sure that the the score and the problem "
 "and student identifiers are complete and correct."
-msgstr ""
+msgstr "错误启动一个任务来覆盖'<%- problem_id %>'的问题的分数，学生的'<%- student_id %>'。确保分数、问题和学生标识符都是完整和正确的。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:567
 msgid ""
 "Started entrance exam rescore task for student '{student_id}'. Click the "
 "'Show Task Status' button to see the status of the task."
-msgstr ""
+msgstr "为学生的'{student_id}'启动入学考试。单击“Show Task Status”按钮查看任务的状态。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:575
 msgid ""
@@ -3925,19 +3923,19 @@ msgstr "为学生'{student_id}'开始运行重新计算入学考试分数的任�
 
 #: lms/static/js/instructor_dashboard/student_admin.js:595
 msgid "Rescore problem '<%- problem_id %>' for all students?"
-msgstr ""
+msgstr "重置问题'<%- problem_id %>'对于所有学生?"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:605
 msgid ""
 "Successfully started task to rescore problem '<%- problem_id %>' for all "
 "students. Click the 'Show Task Status' button to see the status of the task."
-msgstr ""
+msgstr "对所有的学生来说，成功地开始了任务去重置问题'<%- problem_id %>'。单击“Show Task Status”按钮查看任务的状态。"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:609
 msgid ""
 "Error starting a task to rescore problem '<%- problem_id %>'. Make sure that"
 " the problem identifier is complete and correct."
-msgstr ""
+msgstr 错误启动一个任务去重置问题'<%- problem_id %>'。确保问题标识符是完整和正确的。"
 
 #. Translators: a "Task" is a background process such as grading students or
 #. sending email
@@ -4059,16 +4057,16 @@ msgstr "由于包含涉及学生的敏感信息，生成的链接将在5分钟�
 
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:50
 msgid "{type} Progress"
-msgstr ""
+msgstr "{type}进展"
 
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:53
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:71
 msgid "Earned Certificates"
-msgstr ""
+msgstr "获得了证书"
 
 #: lms/static/js/learner_dashboard/views/program_details_view.js:113
 msgid "Enrolled"
-msgstr ""
+msgstr "选课"
 
 #: lms/static/js/staff_debug_actions.js:79
 msgid "Successfully reset the attempts for user {user}"
@@ -4084,7 +4082,7 @@ msgstr "成功删除学生{user}的状态"
 
 #: lms/static/js/staff_debug_actions.js:91
 msgid "Failed to delete student state for user."
-msgstr ""
+msgstr "未能删除用户状态"
 
 #: lms/static/js/staff_debug_actions.js:101
 msgid "Successfully rescored problem for user {user}"
@@ -4092,23 +4090,23 @@ msgstr "成功重评用户 {user}得分"
 
 #: lms/static/js/staff_debug_actions.js:102
 msgid "Failed to rescore problem for user."
-msgstr ""
+msgstr "未能对用户进行重组"
 
 #: lms/static/js/staff_debug_actions.js:112
 msgid "Successfully rescored problem to improve score for user {user}"
-msgstr ""
+msgstr "成功地重新优化问题以提高用户{user}的得分"
 
 #: lms/static/js/staff_debug_actions.js:113
 msgid "Failed to rescore problem to improve score for user."
-msgstr ""
+msgstr "未能对用户进行重新评价以提高用户的得分"
 
 #: lms/static/js/staff_debug_actions.js:123
 msgid "Successfully overrode problem score for {user}"
-msgstr ""
+msgstr "{user}成功地解决了问题"
 
 #: lms/static/js/staff_debug_actions.js:124
 msgid "Could not override problem score for {user}."
-msgstr ""
+msgstr "不能覆盖{user}问题得分"
 
 #: lms/static/js/student_account/account.js:47
 msgid "The data could not be saved."
@@ -4166,7 +4164,7 @@ msgstr "发生了一个错误。"
 #. profile forms.
 #: lms/static/js/student_account/views/FormView.js:32
 msgid "(optional)"
-msgstr ""
+msgstr "(optional)"
 
 #: lms/static/js/student_account/views/LoginView.js:36
 msgid "We couldn't sign you in."
@@ -4175,7 +4173,7 @@ msgstr "登录失败。"
 #: lms/static/js/student_account/views/LoginView.js:87
 #, javascript-format
 msgid "An error occurred when signing you in to %s."
-msgstr ""
+msgstr "当您在%s中签名时发生了错误。"
 
 #: lms/static/js/student_account/views/LoginView.js:127
 msgid "Check Your Email"
@@ -4190,7 +4188,7 @@ msgid ""
 " message, verify that you entered the correct email address, or check your "
 "spam folder.{paragraphEnd}{paragraphStart}If you need further assistance, "
 "{anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
-msgstr ""
+msgstr "{ paragraphStart }您输入 { boldStart } { email } { boldEnd }。如果这个电子邮件地址与您的平台名称帐户相关联，我们将发送一个带有密码重置指令的消息给这个电子邮件地址。{paragraphEnd}{paragraphStart}如果您没有收到密码重置信息，请确认您输入了正确的电子邮件地址，或者检查您的垃圾邮件文件夹。{paragraphEnd}{paragraphStart}如果您需要进一步的帮助，{anchorStart}请联系技术支持{anchorEnd}.{paragraphEnd}。"
 
 #: lms/static/js/student_account/views/LoginView.js:177
 msgid ""
@@ -4215,7 +4213,7 @@ msgstr "创建账号"
 
 #: lms/static/js/student_account/views/RegisterView.js:138
 msgid "(required)"
-msgstr ""
+msgstr "(required)"
 
 #: lms/static/js/student_account/views/RegisterView.js:291
 msgid "You've successfully signed into %(currentProvider)s."
@@ -4240,10 +4238,8 @@ msgstr "用于登录、接收来自 {platform_name} 及您的注册课程信息�
 
 #: lms/static/js/student_account/views/account_settings_factory.js:59
 msgid ""
-"The email address you use to sign in. Communications from {platform_name} "
-"and your courses are sent to this address.  To change the email address, "
-"please contact {contact_email}."
-msgstr ""
+"The email address you use to sign in. Communications from {platform_name} and your courses are sent to this address.  To change the email address, please contact {contact_email}."
+msgstr "您使用这个电子邮件地址去注册。{platform_name}的通信和您的课程被发送到这个地址。要更改电子邮件地址，请联系{contact_email}。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:68
 #: lms/static/js/student_account/views/account_settings_factory.js:235
@@ -4252,7 +4248,7 @@ msgstr "基本账户信息"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:69
 msgid "These settings include basic information about your account."
-msgstr ""
+msgstr "这些设置包括关于您的账户的基本信息"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:77
 msgid ""
@@ -4272,7 +4268,7 @@ msgid ""
 "{bold_start}Full Profile{bold_end} for profile visibility. Make sure to "
 "enter your name exactly as it appears on your photo ID, including any non-"
 "Roman characters."
-msgstr ""
+msgstr "用于ID验证的名称，并出现在您的证书上。如果您已经选择了{bold_start}面兼容{bold_end}为配置文件的可见性，其他学习者可以看到你的全名。确保在您的照片ID上输入您的名字，包括任何非罗马字符。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:101
 msgid "Password"
@@ -4285,10 +4281,8 @@ msgstr "重置您的密码"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:109
 msgid ""
-"When you select \"Reset Your Password\", a message will be sent to the email"
-" address for your {platform_name} account. Click the link in the message to "
-"reset your password."
-msgstr ""
+"When you select \"Reset Your Password\", a message will be sent to the email address for your {platform_name} account. Click the link in the message to reset your password."
+msgstr "当您选择\"Reset Your Password\"时，将会发送一条消息到您的{platform_name}帐户的电子邮件地址。单击消息中的链接来重置您的密码。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:122
 msgid ""
@@ -4298,11 +4292,11 @@ msgstr "整个网站显示的语言。目前仅限于几种语言。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:133
 msgid "Country or Region of Residence"
-msgstr ""
+msgstr "居住国或地区"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:137
 msgid "The country or region where you live."
-msgstr ""
+msgstr "您居住的国家或地区。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:144
 msgid "Time Zone"
@@ -4313,7 +4307,7 @@ msgid ""
 "Select the time zone for displaying course dates. If you do not specify a "
 "time zone, course dates, including assignment deadlines, will be displayed "
 "in your browser's local time zone."
-msgstr ""
+msgstr "选择用于显示课程日期的时区。如果您没有指定一个时区，课程日期，包括指定的截止日期，将会显示在您的浏览器的本地时区。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:148
 msgid "All Time Zones"
@@ -4346,21 +4340,21 @@ msgstr "首选语言"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:202
 msgid "Social Media Links"
-msgstr ""
+msgstr "社会化媒体链接"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:203
 msgid ""
 "Optionally, link your personal accounts to the social media icons on your "
 "edX profile."
-msgstr ""
+msgstr "可选地，将您的个人账号与您的edX档案中的社交媒体图标联系起来。"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:213
 msgid " Link"
-msgstr ""
+msgstr "链接"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:216
 msgid "Enter your "
-msgstr ""
+msgstr "输入您"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:243
 #: lms/static/js/student_account/views/account_settings_view.js:29
@@ -4397,7 +4391,7 @@ msgstr "我的订单"
 msgid ""
 "This page contains information about orders that you have placed with "
 "{platform_name}."
-msgstr ""
+msgstr "这个页面包含您所放置的订单的信息{platform_name}"
 
 #: lms/static/js/student_account/views/account_settings_fields.js:45
 msgid ""
@@ -4415,7 +4409,7 @@ msgid ""
 "We've sent a message to {email}. Click the link in the message to reset your"
 " password. Didn't receive the message? Contact {anchorStart}technical "
 "support{anchorEnd}."
-msgstr ""
+msgstr "我们已经向{email}发送了一条信息。单击消息中的链接来重置您的密码。没有收到消息?联系{anchorStart}技术支持{anchorStart}。"
 
 #: lms/static/js/student_account/views/account_settings_fields.js:275
 msgid "Link your {accountName} account"
@@ -4443,7 +4437,7 @@ msgstr "关联您的账户"
 msgid ""
 "Link your {accountName} account to your {platformName} account and use "
 "{accountName} to sign in to {platformName}."
-msgstr ""
+msgstr "连接您的{accountName}账户到您的{platformName}帐户，并使用{account_Name}登录到{platformName}. "
 
 #: lms/static/js/student_account/views/account_settings_fields.js:350
 msgid "Unlinking"
@@ -4682,7 +4676,7 @@ msgstr "学生数目"
 
 #: lms/templates/courseware/progress_graph.js:290
 msgid "Overall Score"
-msgstr ""
+msgstr "总分"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:9
 msgid "Bookmark this page"
@@ -4690,15 +4684,15 @@ msgstr "收藏此页"
 
 #: openedx/features/course_experience/static/course_experience/js/CourseGoals.js:20
 msgid "Thank you for setting your course goal!"
-msgstr ""
+msgstr "感谢您设定您的课程目标！"
 
 #: openedx/features/course_experience/static/course_experience/js/CourseHome.js:100
 msgid "Show more"
-msgstr ""
+msgstr "显示更多"
 
 #: openedx/features/course_experience/static/course_experience/js/CourseHome.js:121
 msgid "Show less"
-msgstr ""
+msgstr "显示更少"
 
 #: openedx/features/course_search/static/course_search/js/views/search_results_view.js:67
 msgid "{total_results} result"
@@ -4707,7 +4701,7 @@ msgstr[0] ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:74
 msgid "Profile Visibility:"
-msgstr ""
+msgstr "概要文件可见性:"
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:77
 msgid "Limited Profile"
@@ -4719,11 +4713,11 @@ msgstr "全部资料"
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:118
 msgid "Joined"
-msgstr ""
+msgstr "加入"
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:121
 msgid "Joined Date"
-msgstr ""
+msgstr "加入日期"
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:130
 msgid "Location"
